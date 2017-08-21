@@ -3,10 +3,10 @@
 #
 # url: http://localhost:4000
 # baseurl: ""
-url: http://es3a10.github.io
-baseurl: /prueba_tema
-title: Your name
-description: Some descriptions of yourself.
+url: http://crdguez.github.io
+baseurl: ""
+title: Web de prueba de CR
+description: Siempre aprendiendo
 avatar: /assets/img/ogp.png
 # favicon: /favicon.ico
 favicon: /assets/img/ogp.png
