@@ -1,3 +1,10 @@
+---
+layout: post
+title: Jekyll y Matemáticas
+tags: hello jekyll theme
+eye_catch: 
+---
+
 # Usando MathJax
 
 Podemos escribir usando MathJax, para ello en *_config.yml* añadimos la directiva *mathjax: true*.
