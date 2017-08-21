@@ -104,6 +104,8 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  
+mathjax: true
 
 excerpt_separator: <!--more-->
 
