@@ -15,4 +15,4 @@ que quede en un bloque aparte lo que pondremos será \\[ \frac{1}{n^{2}} \\]
 
 # Atribuciones
 
-http://sgeos.github.io/github/jekyll/2016/08/21/adding_mathjax_to_a_jekyll_github_pages_blog.html
+web[http://sgeos.github.io/github/jekyll/2016/08/21/adding_mathjax_to_a_jekyll_github_pages_blog.html]
