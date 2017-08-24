@@ -12,7 +12,7 @@ Podemos insertar fotos en nuestra web, por ejemplo:
 
 ![Cafeeeeeeeeé](/assets/img/cafe.jpg)
 
-<img src="/assets/img/cafe.jpg" width="100px">
+<img src="/assets/img/cafe.jpg" width="50%">
 
 # Atribuciones
 
