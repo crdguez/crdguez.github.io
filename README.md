@@ -1,4 +1,4 @@
-#ATRIBUCIONES (Thanks ttskch)
+# ATRIBUCIONES (Thanks ttskch)
 
 # jekyll-ttskch-theme
 
