@@ -10,7 +10,7 @@ eye_catch:
 
 Podemos insertar fotos en nuestra web, por ejemplo:
 
-![Cafeeeeeeeeé]({{ site.url }}/assets/img/cafe.jpg)
+![Cafeeeeeeeeé](/assets/img/cafe.jpg)
 
 
 # Atribuciones
