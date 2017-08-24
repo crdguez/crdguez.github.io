@@ -1,3 +1,5 @@
+#ATRIBUCIONES (Thanks ttskch)
+
 # jekyll-ttskch-theme
 
 A simple and customizable theme for Jekyll.
