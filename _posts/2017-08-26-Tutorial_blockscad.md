@@ -1,3 +1,11 @@
+---
+layout: post
+title: Introducción a BlockScad
+tags: 3d math blockscad
+mathjax: true
+eye_catch: 
+---
+
 # Tutorial de BlocksCAD:
 
 ## Introducción
