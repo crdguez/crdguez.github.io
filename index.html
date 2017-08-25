@@ -3,6 +3,7 @@ layout: default
 ---
 
 {% for post in paginator.posts %}
+{% include mathjax.html %}
 <div class="article-wrapper">
     <article>
     {% include article-header.html page=post link=true %}
