@@ -16,3 +16,4 @@ $ bundle exec jekyll serve
 # Then point your browser to:
 # http://localhost:4000/
 ```
+**(NOTA):** Como lo anterior me falló por un *gem*, he tenido que seguir, además el siguiente [tutotial](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
