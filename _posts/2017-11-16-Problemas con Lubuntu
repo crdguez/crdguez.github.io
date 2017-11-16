@@ -1,0 +1,16 @@
+---
+layout: post
+title: Soluciones a mis problemas con la instalación de Lubuntu en mia ASUS Z9200U
+tags: Lubuntu
+mathjax: true
+eye_catch: 
+---
+
+## Primer problema: La wifi
+
+La tarjeta wifi es una Broadcom Limited BCM4318 [AirForce One 54g] 802.11g Wireless LAN Controller (rev 02)
+
+[Fuente donde está la solución](https://blog.desdelinux.net/solucionar-problema-con-wifi-broadcom-43xx-en-ubuntu-despues-de-la-actualizacion/)
+
+
+Habrá que probarlo.
