@@ -17,15 +17,3 @@ La tarjeta wifi es una Broadcom Limited BCM4318 [AirForce One 54g] 802.11g Wirel
 La tarjeta grafica es Silicon Integrated Systems [SiS] 661/741/760 PCI/AGP or 662/761Gx PCIE VGA Display Adapter
 
 [Fuente donde está la solución](https://askubuntu.com/questions/455888/low-resolution-on-lubuntu-14-04-sis)
-
-    © 2017 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Help
-
-    Contact GitHub
-    API
-    Training
-    Shop
