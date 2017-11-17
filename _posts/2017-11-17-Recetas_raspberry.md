@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Soluciones a mis problemas con la instalación de Lubuntu en mia ASUS Z9200U
-tags: Lubuntu
+title: Recetas para la Raspberry Pi
+tags: Raspberry
 mathjax: true
 eye_catch: 
 ---
