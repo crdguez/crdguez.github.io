@@ -26,4 +26,12 @@ Esto lo he solucionado con el comando scrot -s desde ejecutar
 
 `sudo apt-get install system-config-samba`
 
-El comando anterior me da una GUI para configurar las carpetas compartidas
+El comando anterior me da una GUI para configurar las carpetas compartidas. Desde el menú no me ha funcionado, he tenido que lanzarlo desde la línea de comandos:
+
+`sudo system-config-samba`
+ 
+ En caso que falle:
+ 
+ `sudo touch /etc/libuser.conf`
+ 
+ Y volver a ejecutar el comando lanzador
