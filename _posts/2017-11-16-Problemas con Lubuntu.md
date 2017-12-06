@@ -21,3 +21,9 @@ La tarjeta grafica es Silicon Integrated Systems [SiS] 661/741/760 PCI/AGP or 66
 ## No tengo capturador de pantalla
 
 Esto lo he solucionado con el comando scrot -s desde ejecutar
+
+## PCManFM no tiene opción para compartir carpetas
+
+`sudo apt-get install system-config-samba`
+
+El comando anterior me da una GUI para configurar las carpetas compartidas
