@@ -23,6 +23,10 @@ Para cargar la imagen en la sd he lanzado el siguiente comando:
 ```
 xzcat Fedora-SoaS-armhfp-27-1.6-sda.raw.xz | sudo dd status=progress bs=4M of=/dev/sda 
 ```
+Para activar la wifi por temas de derechos:
+
+`sudo curl https://raw.githubusercontent.com/RPi-Distro/firmware-nonfree/master/brcm80211/brcm/brcmfmac43430-sdio.txt -o /lib/firmware/brcm/brcmfmac43430-sdio.txt`
+
 ## Luces neopixel con controlador ws2801 para arduino antes de usarlas en la raspberry
 
 [Libreria desarrollada por adafruit](https://github.com/adafruit/Adafruit-WS2801-Library)
