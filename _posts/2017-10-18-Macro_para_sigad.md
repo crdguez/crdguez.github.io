@@ -2,7 +2,7 @@
 
 Podemos manipular las orlillas del sigad con esta macro de Excel:
 
-`
+```
 Sub Macro1()
 
 
@@ -70,4 +70,4 @@ Dim asignatura As String
         
     
 End Sub
-`
+```
