@@ -71,3 +71,4 @@ Dim asignatura As String
     
 End Sub
 ```
+Esperemos que los desarrolladores de la aplicación vayan mejorando el generador de informes. Hasta entonces me tocará usar esta macro de visual basic
