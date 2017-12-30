@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Soluciones a mis problemas con la instalación de Lubuntu en mia ASUS Z9200U
+title: Soluciones a mis problemas con la instalación de Lubuntu en mi ASUS Z9200U
 tags: Lubuntu
 mathjax: true
 eye_catch: 
