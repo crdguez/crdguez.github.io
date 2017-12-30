@@ -21,5 +21,13 @@ He probado [Sugar](https://wiki.sugarlabs.org/go/Sugar_on_a_Stick/Raspberry_Pi) 
 Para cargar la imagen en la sd he lanzado el siguiente comando:
 
 ```
-xzcat Fedora-SoaS-armhfp-27-1.6-sda.raw.xz | sudo dd status=progress bs=4M of=/dev/sda
+xzcat Fedora-SoaS-armhfp-27-1.6-sda.raw.xz | sudo dd status=progress bs=4M of=/dev/sda 
 ```
+## Luces neopixel con controlador ws2801 para arduino antes de usarlas en la raspberry
+
+[Libreria desarrollada por adafruit](https://github.com/adafruit/Adafruit-WS2801-Library)
+
+Podemos descargarla en la carpeta de *Arduino/libraries* para poder compilar y subir a la placa desde el IDE de Arduino-
+
+Los colores y pines los podemos ver en este [enlace](http://soloelectronicos.com/2017/05/07/como-detectar-la-combinacion-de-colores-de-una-tira-de-leds-ws2801/) -Gracias-
+
