@@ -8,8 +8,9 @@ eye_catch:
 
 Para lanzar los notebooks de *jupyter* necesitamos tener instalado *anaconda*. Nos vamos en la terminal a la ruta donde queramos tener los notebooks y:
 
-`ipython notebook
-
+```
+python notebook
+```
 ```
 solve_univariate_inequality(x**2 >= 4, x, relational=False)
 solve([x+4<0,x+1<x/2],x)
