@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Probando ExamGen - Generador de exámenes con Python, Sympy y latex
+title: Probando ExamGen - Generador de exámenes con Python, Sympy y LaTeX
 tags: latex, matemáticas, sympy
 mathjax: true
 eye_catch: 
