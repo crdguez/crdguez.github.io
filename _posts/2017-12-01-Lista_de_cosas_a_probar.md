@@ -8,7 +8,7 @@ eye_catch:
 
 Esa pila de cosas a probar pero que nunca hay tiempo:
 
-  * [Generador de exámenes resueltos con sympy y latex](https://github.com/thearn/examgen). Bien, probado. A tener en cuenta, solo funciona con python 2.7, i.e. ejecutar **python2**. *Opción 1*: Hay que descargar la carpeta examgen, y en la que lo contenga entrar en python, así no fallará las importaciones (lo más cómodo es clonar el repositorio del enlace y desde allí ejecutar python2. A la hora de pegar código desde github tener en cuenta los saltos de línea que se copian en el intérprete y dan error. *Opción 2*: Generar un fichero.py y ejecutar python2 fichero.py. Seguiremos investigando para ver cómo podemos adaptarlo a nuestras necesidades. Gracias a [Thearn](https://github.com/thearn)
+  * [Generador de exámenes resueltos con sympy y latex](https://github.com/thearn/examgen). Bien, probado. A tener en cuenta, solo funciona con python 2.7, i.e. ejecutar **python2**. *Opción 1*: Hay que descargar la carpeta examgen, y en la que lo contenga entrar en python, así no fallará las importaciones (lo más cómodo es clonar el repositorio del enlace y desde allí ejecutar python2). A la hora de pegar código desde github tener en cuenta los saltos de línea que se copian en el intérprete y dan error. *Opción 2*: Generar un fichero.py y ejecutar python2 fichero.py. Seguiremos investigando para ver cómo podemos adaptarlo a nuestras necesidades. Gracias a [Thearn](https://github.com/thearn)
   * [Generador de stl a partir de, por ejemplo, latex](https://github.com/thearn/stl_tools)
   * [Generador de puzzles matemáticos libre - clon de Tarsia's Formulator](https://github.com/juliangilbey/jigsaw-generator)
   * [Paquete probsoln para generar exámenes](https://ctan.org/pkg/probsoln)
