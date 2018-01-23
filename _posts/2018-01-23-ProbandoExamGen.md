@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Probando ExamGen - Generador de exámenes con Python, Sympy y  LaTeX ( \( \LaTeX \) )
+title: Probando ExamGen - Generador de exámenes con Python, Sympy y  LaTeX  [\( \LaTeX \)](https://www.latex-project.org/)
 tags: latex matemáticas sympy
 mathjax: true
 eye_catch: 
