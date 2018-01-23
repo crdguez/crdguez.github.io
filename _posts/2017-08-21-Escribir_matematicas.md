@@ -13,6 +13,8 @@ Podemos escribir usando MathJax, para ello en *_config.yml* añadimos la directi
 Podemos insertar latex como en este ejemplo, \\( 1/x^{2} \\) que vemos que queda en la misma linea, o si por el contrario queremos
 que quede en un bloque aparte lo que pondremos será \\[ \frac{1}{n^{2}} \\] 
 
+\\( \LaTeX \\) \\( \LaTeX{} \\) \\( {\LaTeX} \\) \\( \frac{1}{2} \\)
+
 # Atribuciones
 
 [web donde he encontrado información](http://sgeos.github.io/github/jekyll/2016/08/21/adding_mathjax_to_a_jekyll_github_pages_blog.html)
