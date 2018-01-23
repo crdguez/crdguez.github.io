@@ -10,10 +10,10 @@ eye_catch:
 
 Gracias a [Thearn](https://github.com/thearn) por el [generador de exámenes](https://github.com/thearn/examgen)
 
-\( \LaTeX \)
+\\( \LaTeX \\)
 \( \LaTeX{} \)
 \( {\LaTeX} \)
-\( \frac{1}{2} \)
+\\( \frac{1}{2} \\)
 
 ## Cómo funciona
 A tener en cuenta, solo funciona con python 2.7, i.e. ejecutar **python2**. 
