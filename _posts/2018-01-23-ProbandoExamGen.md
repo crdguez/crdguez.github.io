@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Probando ExamGen - Generador de exámenes con Python, Sympy y  LaTeX
+title: Probando ExamGen - Generador de exámenes con Python, Sympy y  LaTeX ( \( \LaTeX \) )
 tags: latex matemáticas sympy
 mathjax: true
 eye_catch: 
@@ -9,13 +9,6 @@ eye_catch:
 ## [Enlace al Proyecto Original](https://github.com/thearn/examgen)
 
 Gracias a [Thearn](https://github.com/thearn) por el [generador de exámenes](https://github.com/thearn/examgen)
-
-\\( \LaTeX \\)
-\( \LaTeX{} \)
-\( {\LaTeX} \)
-\\( \frac{1}{2} \\)
-
-\\[ \frac{1}{n^{2}} \\] 
 
 ## Cómo funciona
 A tener en cuenta, solo funciona con python 2.7, i.e. ejecutar **python2**. 
