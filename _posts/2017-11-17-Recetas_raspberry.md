@@ -12,6 +12,8 @@ Tengo un pantalla táctil de 3.2 inch con el chip xp12046. Para manejarla he seg
 
 [Documentación](https://www.waveshare.com/wiki/3.2inch_RPi_LCD_(B))
 
+Para instalar retropie con esa pantalla he visto este [enlace](https://retropie.org.uk/forum/topic/4983/retropie-and-waveshare-3-2-b-screen)
+
 ## Sistemas operativos
 
 ### Sugar
