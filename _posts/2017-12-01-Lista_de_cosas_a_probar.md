@@ -16,5 +16,6 @@ Esa pila de cosas a probar pero que nunca hay tiempo:
   * [Insertar python en documento latex](https://tex.stackexchange.com/questions/397234/h-do-mathematical-programming-in-latex?atw=1)
   * [Fotomatón](https://makezine.com/projects/raspberry-pi-photo-booth/)
   * [Curso sobre el procedimiento administrativo](https://catedu.gitbooks.io/el-procedimiento-administrativo/content/). Estoy intentando pasar el gtibook a pdf con la información de este [enlace](https://help.coderdojo.com/hc/en-us/articles/115001543063-Generating-a-PDF-from-GitBook)
+  * [Pentominos, ajedrez y más](https://crieventa.webnode.es/)
 
 Habrá que probarlos.
