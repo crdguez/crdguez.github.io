@@ -12,7 +12,12 @@ Tengo un pantalla táctil de 3.2 inch con el chip xp12046. Para manejarla he seg
 
 [Documentación](https://www.waveshare.com/wiki/3.2inch_RPi_LCD_(B))
 
-Para instalar retropie con esa pantalla he visto este [enlace](https://retropie.org.uk/forum/topic/4983/retropie-and-waveshare-3-2-b-screen) y ha funcionado. Lo que no ha funcionado ha sido el lanzamiento de kodi desde retropie, * **No:** (tengo que intentar el siguiente [enlace2](https://www.opendisplaycase.com/kodidisplayinfo-program.html))* . Igual funciona modificar el fichero [guisettings.xml](https://retropie.org.uk/forum/topic/2321/booting-into-kodi-black-screen-flashing-freezing/8)
+Para instalar retropie con esa pantalla he visto este [enlace](https://retropie.org.uk/forum/topic/4983/retropie-and-waveshare-3-2-b-screen) y ha funcionado. Lo que no ha funcionado ha sido el lanzamiento de kodi desde retropie, * **No:** (tengo que intentar el siguiente [enlace2](https://www.opendisplaycase.com/kodidisplayinfo-program.html))* . Igual funciona modificar el fichero [guisettings.xml](https://retropie.org.uk/forum/topic/2321/booting-into-kodi-black-screen-flashing-freezing/8). Al final lo que me ha funcionado ha sido modificar el */boot/config.txt* y poner:
+
+```
+#hdmi_force_hotplug=1
+hdmi_ignore_hotplug=1
+```
 
 [Para que el estado en el que se me queda un juego se grabe](https://retropie.org.uk/docs/FAQ/#why-arent-my-in-game-saves-working-properly)
 
