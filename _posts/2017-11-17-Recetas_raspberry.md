@@ -21,6 +21,8 @@ hdmi_ignore_hotplug=1
 
 [Para que el estado en el que se me queda un juego se grabe](https://retropie.org.uk/docs/FAQ/#why-arent-my-in-game-saves-working-properly)
 
+El Kodi queda un poco pequeño, para cambiar el tamaño de la fuente: [enlace](https://forum.kodi.tv/showthread.php?tid=195752)
+
 ## Sistemas operativos
 
 ### Sugar
