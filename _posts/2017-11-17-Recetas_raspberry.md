@@ -23,6 +23,8 @@ hdmi_ignore_hotplug=1
 
 El Kodi queda un poco pequeño, para cambiar el tamaño de la fuente: [enlace](https://forum.kodi.tv/showthread.php?tid=195752)
 
+Para spectrum: [enlace](https://www.fororaspberry.es/viewtopic.php?t=4566)
+
 ## Sistemas operativos
 
 ### Sugar
