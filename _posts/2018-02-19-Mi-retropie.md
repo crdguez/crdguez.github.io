@@ -27,7 +27,7 @@ sudo modprobe uinput
 hcitool dev | grep hci >/dev/null
 if test $? -eq 0 ; then
     wminput -d -q -c  /home/pi/mywminput 00:19:1D:67:D8:26 > /dev/null 2>&1 &
-  #  wminput -d -c  /home/pi/mywminput 0C:FC:83:A9:17:6B &
+  #wminput -d -c  /home/pi/mywminput 0C:FC:83:A9:17:6B &
 else
     echo "Blue-tooth adapter not present!"
     exit 1
@@ -37,7 +37,7 @@ fi
 nano mywminput
 
 
-# Classic-Controller
+#Classic-Controller
 Classic.Dpad.X = ABS_X
 Classic.Dpad.Y = ABS_Y
 Classic.LStick.X = ABS_HAT0X
@@ -56,7 +56,7 @@ Classic.R  = BTN_TR
 Classic.ZL = BTN_TL2
 Classic.ZR = BTN_TR2
 
-# WiiMote
+#WiiMote
 Wiimote.A   	= BTN_START
 Wiimote.B   	= BTN_SELECT
 Wiimote.Dpad.X  	= ABS_Y
@@ -67,7 +67,7 @@ Wiimote.Home	= BTN_MODE
 Wiimote.1   	= BTN_B
 Wiimote.2   	= BTN_A
 
-# Nunchuk
+#Nunchuk
 Nunchuk.C = BTN_C
 Nunchuk.Z = BTN_Z
 
@@ -87,7 +87,7 @@ y
 nano /opt/retropie/emulators/retroarch/retroarch.cfg
 
 
-# PLAYER 1
+#PLAYER 1
 input_player1_joypad_index = "0"
 input_player1_a_btn = "0"
 input_player1_b_btn = "1"
@@ -112,7 +112,7 @@ input_player1_r_x_minus_axis = "-4"
 input_player1_r_y_plus_axis = "-5"
 input_player1_r_y_minus_axis = "+5"
 
-# PLAYER 2
+#PLAYER 2
 input_player2_joypad_index = "1"
 input_player2_a_btn = "0"
 input_player2_b_btn = "1"
