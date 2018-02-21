@@ -9,6 +9,30 @@ eye_catch:
 En este artículo voy a escribir cómo he configurado retropie para que funcione con dos [mandos wiimote](https://github.com/RetroPie/RetroPie-Setup/wiki/Wiimote-Controller) y con una pantalla [waveshare 3.2"](https://www.waveshare.com/wiki/3.2inch_RPi_LCD_(B)).
 Además le he puesto kodi.
 
+## Quitar el marco negro
+
+Para que funcione kodi he tenido que modificar el */boot/config.txt*:
+
+
+```
+# he tenido que comentar la siguiente línea para que no conmute a la salida hdmi
+#hdmi_force_hotplug=1
+
+```
+Pero entonces me salía un borde negro que no aprovechaba toda la pantalla. Esto se corrige añadiendo:
+
+```
+disable_overscan=1
+```
+
+## Aumentar el tamaño de letra de los menús
+
+```
+sudo nano /etc/emulationstation/themes/carbon/carbon.xml
+```
+
+Y allí cambiar todas las etiquetas *fontSize* a 0.05
+
 ## Documentación antigua para configurar los wiimotes:
 
 Es importante configurar primero el teclado y luego añadir el wiimote desde *input config* del menú de retropie, antes de hacer el paso *Register Wiimotes Before Emulationstation Starts (continued)*
