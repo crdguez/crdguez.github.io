@@ -9,8 +9,11 @@ eye_catch:
 En este artículo voy a escribir cómo he configurado retropie para que funcione con dos [mandos wiimote](https://github.com/RetroPie/RetroPie-Setup/wiki/Wiimote-Controller) y con una pantalla [waveshare 3.2"](https://www.waveshare.com/wiki/3.2inch_RPi_LCD_(B)).
 Además le he puesto kodi.
 
-Documentación antigua:
+## Documentación antigua para configurar los wiimotes:
 
+Es importante configurar primero el teclado y luego añadir el wiimote desde *input config* del menú de retropie, antes de hacer el paso *Register Wiimotes Before Emulationstation Starts (continued)*
+
+```
 /opt/retropie/configs/all/autostart.sh 
 
 rebootWithoutWiimotes=0 /home/pi/bin/attachwii.sh
@@ -228,5 +231,5 @@ input_y_btn = "4"
 input_left_axis = "-0"
 input_state_slot_decrease_axis = "-0"
 
-
+```
 
