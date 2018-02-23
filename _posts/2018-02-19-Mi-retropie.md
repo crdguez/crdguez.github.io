@@ -39,6 +39,9 @@ Para el de **kodi**, he añadido 10 a todos los tamaaños de las fuentes del ski
 sudo nano /usr/share/kodi/addons/skin.estuary/xml/Font.xml
 ```
 
+## wiimotes en kodi
+[enlace](https://trac.kodi.tv/ticket/17313)
+
 ## Documentación antigua para configurar los wiimotes:
 
 Es importante configurar primero el teclado y luego añadir el wiimote desde *input config* del menú de retropie, antes de hacer el paso *Register Wiimotes Before Emulationstation Starts (continued)*
