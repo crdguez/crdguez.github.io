@@ -33,6 +33,12 @@ sudo nano /etc/emulationstation/themes/carbon/carbon.xml
 
 Y allí cambiar todas las etiquetas *fontSize* a 0.05
 
+Para el de **kodi**, he añadido 10 a todos los tamaaños de las fuentes del skin *estuary*:
+
+```
+sudo nano /usr/share/kodi/addons/skin.estuary/xml/Font.xml
+```
+
 ## Documentación antigua para configurar los wiimotes:
 
 Es importante configurar primero el teclado y luego añadir el wiimote desde *input config* del menú de retropie, antes de hacer el paso *Register Wiimotes Before Emulationstation Starts (continued)*
