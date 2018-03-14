@@ -71,4 +71,11 @@ Dim asignatura As String
     
 End Sub
 ```
-Esperemos que los desarrolladores de la aplicación vayan mejorando el generador de informes. Hasta entonces me tocará usar esta macro de visual basic
+Esperemos que los desarrolladores de la aplicación vayan mejorando el generador de informes. Hasta entonces me tocará usar esta macro de visual basic.
+
+Normalmente sigo estos pasos antes de ejecutar la macro:
+
+    * Quito las columnas que no tienen datos y que se doblan por la exportación de los encabezados y dejo la tabla colocada en la celda A1 (la fila de resultados totales final también la quito). La primera columna y la última también
+    * Creo una nueva hoja llamada Resultados y a la hoja donde están los datos la renombro a Hoja1
+    * Ejecuto la macro
+
