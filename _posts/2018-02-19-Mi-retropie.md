@@ -33,14 +33,18 @@ sudo nano /etc/emulationstation/themes/carbon/carbon.xml
 
 Y allí cambiar todas las etiquetas *fontSize* a 0.05
 
-Para el de **kodi**, he añadido 10 a todos los tamaaños de las fuentes del skin *estuary*:
+Para el de **kodi**, he añadido 10 a todos los tamaños de las fuentes del skin *estuary*:
 
 ```
 sudo nano /usr/share/kodi/addons/skin.estuary/xml/Font.xml
 ```
 
+## kodi con mandos snes
+
+Como he tenido problemas con los wiimotes, he configurados los mandos de la snes desde Kodi --> Settings --> System settings --> Input --> Configure attached controllers --> Descargar el add-on de control de snes y configurar los botones (yo he cambiado el A por el B)
+
 ## wiimotes en kodi
-[enlace](https://trac.kodi.tv/ticket/17313)
+[enlace](https://trac.kodi.tv/ticket/17313) %parece complicado
 
 ## Documentación antigua para configurar los wiimotes:
 
