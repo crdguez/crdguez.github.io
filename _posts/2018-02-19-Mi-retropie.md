@@ -11,16 +11,42 @@ Además le he puesto kodi y al poner kodi he puesto mandos snes para que me func
 
 ## Touchscreen
 
-Tengo un pantalla táctil de 3.2 inch con el chip xp12046. Para manejarla he seguido esta documentación:
+El resumen de lo que aparece luego para hacerlo funcionar está en que si quiero que se vea en el touchscreen añado a */boot/config.txt*
 
+```
+#Waveshare 3.2 TFT Screen
+#same resolution for hdmi and tft
+# dejar com hdmi_force_hotplug=1
+# dejar com hdmi_ignore_hotplug=1
+hdmi_cvt=320 240 60 1 0 0 0
+hdmi_group=2
+hdmi_mode=1
+hdmi_mode=87
+
+disable_overscan=1
+
+dtparam=spi=on
+dtoverlay=waveshare32b:rotate=270,speed=82000000,fps=60
+
+```
+Y si quiero que se vea en la tv comento todas las líneas anteriores, para que cargue el *config.txt* que viene por defecto.
+
+### Documentación antigua
+
+Tengo un pantalla táctil de 3.2 inch con el chip xp12046. Para manejarla he seguido esta documentación:
+ 
 [Documentación](https://www.waveshare.com/wiki/3.2inch_RPi_LCD_(B))
 
-Para instalar retropie con esa pantalla he visto este [enlace](https://retropie.org.uk/forum/topic/4983/retropie-and-waveshare-3-2-b-screen) y ha funcionado. Lo que no ha funcionado ha sido el lanzamiento de kodi desde retropie, * **No:** (tengo que intentar el siguiente [enlace2](https://www.opendisplaycase.com/kodidisplayinfo-program.html))* . Igual funciona modificar el fichero [guisettings.xml](https://retropie.org.uk/forum/topic/2321/booting-into-kodi-black-screen-flashing-freezing/8). Al final lo que me ha funcionado ha sido modificar el */boot/config.txt* y poner:
+Para instalar retropie con esa pantalla he visto este [enlace](https://retropie.org.uk/forum/topic/4983/retropie-and-waveshare-3-2-b-screen) y ha funcionado. Lo que no ha funcionado ha sido el lanzamiento de kodi desde retropie. Al final lo que me ha funcionado ha sido modificar el */boot/config.txt* y poner:
 
 ```
 #hdmi_force_hotplug=1
 hdmi_ignore_hotplug=1
 ```
+
+## Retoques adicionales
+
+Para añadir un [script adicional en el menú de retropie](https://retropie.org.uk/forum/topic/1498/solved-how-to-add-something-to-retropie-menu/5). En mi caso he añadido un *tv.sh* y un *touchscreen.sh* para poder conmutar ambos modos.
 
 [Para que el estado en el que se me queda un juego se grabe](https://retropie.org.uk/docs/FAQ/#why-arent-my-in-game-saves-working-properly)
 
@@ -28,7 +54,7 @@ El Kodi queda un poco pequeño, para cambiar el tamaño de la fuente: [enlace](h
 
 Para spectrum: [enlace](https://www.fororaspberry.es/viewtopic.php?t=4566)
 
-## Quitar el marco negro
+## Quitar el marco negro y que funcione kodi 
 
 Para que funcione kodi he tenido que modificar el */boot/config.txt*:
 
