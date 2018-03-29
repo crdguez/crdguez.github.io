@@ -9,6 +9,25 @@ eye_catch:
 En este artículo voy a escribir cómo he configurado retropie para que funcione con dos [mandos wiimote](https://github.com/RetroPie/RetroPie-Setup/wiki/Wiimote-Controller) y con una pantalla [waveshare 3.2"](https://www.waveshare.com/wiki/3.2inch_RPi_LCD_(B)).
 Además le he puesto kodi y al poner kodi he puesto mandos snes para que me funcione.
 
+## Touchscreen
+
+Tengo un pantalla táctil de 3.2 inch con el chip xp12046. Para manejarla he seguido esta documentación:
+
+[Documentación](https://www.waveshare.com/wiki/3.2inch_RPi_LCD_(B))
+
+Para instalar retropie con esa pantalla he visto este [enlace](https://retropie.org.uk/forum/topic/4983/retropie-and-waveshare-3-2-b-screen) y ha funcionado. Lo que no ha funcionado ha sido el lanzamiento de kodi desde retropie, * **No:** (tengo que intentar el siguiente [enlace2](https://www.opendisplaycase.com/kodidisplayinfo-program.html))* . Igual funciona modificar el fichero [guisettings.xml](https://retropie.org.uk/forum/topic/2321/booting-into-kodi-black-screen-flashing-freezing/8). Al final lo que me ha funcionado ha sido modificar el */boot/config.txt* y poner:
+
+```
+#hdmi_force_hotplug=1
+hdmi_ignore_hotplug=1
+```
+
+[Para que el estado en el que se me queda un juego se grabe](https://retropie.org.uk/docs/FAQ/#why-arent-my-in-game-saves-working-properly)
+
+El Kodi queda un poco pequeño, para cambiar el tamaño de la fuente: [enlace](https://forum.kodi.tv/showthread.php?tid=195752)
+
+Para spectrum: [enlace](https://www.fororaspberry.es/viewtopic.php?t=4566)
+
 ## Quitar el marco negro
 
 Para que funcione kodi he tenido que modificar el */boot/config.txt*:
@@ -19,7 +38,7 @@ Para que funcione kodi he tenido que modificar el */boot/config.txt*:
 # hdmi_force_hotplug=1
 
 ```
-Pero entonces me salía un borde negro que no aprovechaba toda la pantalla. Esto se corrige añadiendo:
+Pero entonces me salía un borde negro que no aprovechaba toda la pantalla. Esto se corrige añadiendo al fichero */boot/config.txt*:
 
 ```
 disable_overscan=1
