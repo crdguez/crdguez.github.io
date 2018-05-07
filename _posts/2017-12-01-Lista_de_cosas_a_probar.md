@@ -18,5 +18,6 @@ Esa pila de cosas a probar pero que nunca hay tiempo:
   * [Curso sobre el procedimiento administrativo](https://catedu.gitbooks.io/el-procedimiento-administrativo/content/). Estoy intentando pasar el gtibook a pdf con la información de este [enlace](https://help.coderdojo.com/hc/en-us/articles/115001543063-Generating-a-PDF-from-GitBook)
   * [Pentominos, ajedrez y más](https://crieventa.webnode.es/)
   * [Dominando ensamblador z80](http://www.cpcwiki.eu/index.php/DEZ80)
+  * [pivot tables con R] (https://trendct.org/2015/08/21/tutorial-pivot-tables-with-r/)
 
 Habrá que probarlos.
