@@ -19,5 +19,6 @@ Esa pila de cosas a probar pero que nunca hay tiempo:
   * [Pentominos, ajedrez y más](https://crieventa.webnode.es/)
   * [Dominando ensamblador z80](http://www.cpcwiki.eu/index.php/DEZ80)
   * [pivot tables con R](https://trendct.org/2015/08/21/tutorial-pivot-tables-with-r/), [excel2R](http://excel2r.com/)
+  * [Para que el blog esté visible o no](https://help.github.com/articles/search-engine-optimization-for-github-pages/)
   
 Habrá que probarlos.
