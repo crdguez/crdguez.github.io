@@ -13,6 +13,9 @@ favicon: /assets/img/ogp.png
 # language: ja
 language: es
 
+plugins:
+  - jekyll-seo-tag
+
 #
 # Icons
 #
