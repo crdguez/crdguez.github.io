@@ -5,8 +5,6 @@
 {% include mathjax.html %}
     
 <head>
-    {% include head.html %}
-    {% seo %}
     {% capture title %}{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}{% endcapture %}
 
     {% include page-url-resolver.html page=page %}
