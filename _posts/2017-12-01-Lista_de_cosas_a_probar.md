@@ -22,4 +22,4 @@ Esa pila de cosas a probar pero que nunca hay tiempo:
   * [Para que el blog esté visible o no](https://help.github.com/articles/search-engine-optimization-for-github-pages/)
   * [Diagramas de gantt con Python](https://www.pythoniza.me/python-gantt/)
   
-Habrá que probarlos.
+Habrá que probarlos. 
