@@ -21,5 +21,6 @@ Esa pila de cosas a probar pero que nunca hay tiempo:
   * [pivot tables con R](https://trendct.org/2015/08/21/tutorial-pivot-tables-with-r/), [excel2R](http://excel2r.com/)
   * [Para que el blog esté visible o no](https://help.github.com/articles/search-engine-optimization-for-github-pages/)
   * [Diagramas de gantt con Python](https://www.pythoniza.me/python-gantt/)
+  * [web scratping] https://www.seleniumhq.org/
   
 Habrá que probarlos. 
