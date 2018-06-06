@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Edición online de \latex
+title: Edición online de (\( \LaTeX \))
 tags: Tex, Latex
 mathjax: true
 eye_catch: 
 ---
 
-A veces me pasa que quiero hacer una pequeña modificación de un documento Latex desde un ordenador conectado a internet
+A veces me pasa que quiero hacer una pequeña modificación de un documento \LaTeX desde un ordenador conectado a internet
 y ver reflejado ese cambio en el pdf.
 Desde GitHub no podemos compilar la modificación. 
 
