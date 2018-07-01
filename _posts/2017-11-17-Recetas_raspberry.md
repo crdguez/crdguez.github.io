@@ -6,6 +6,10 @@ mathjax: true
 eye_catch: 
 ---
 
+## Redimensionando la tarjeta SD
+
+[Enlace](https://github.com/qrti/shrink)
+
 ## Touchscreen
 
 Tengo un pantalla táctil de 3.2 inch con el chip xp12046. Para manejarla he seguido esta documentación:
