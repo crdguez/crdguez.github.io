@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Probando parse_latex o como pasar expresiones LaTeX a SymPy
+title: Probando parse_latex o cómo pasar expresiones LaTeX a SymPy
 tags: LaTeX, SymPy
 mathjax: true
 eye_catch: 
