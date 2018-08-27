@@ -9,8 +9,21 @@ eye_catch:
 Antes de empezar, al final del documento vienen las referencias a la documentación de donde saqué la información. 
 Conviene que le eches un vistazo antes de nada. 
 
-# Uso de la función *parse_latex*
+## Requisitos previos
 
+ - ANTLR
+
+```bash
+$ pip3 install antlr4-python3-runtime
+```
+
+ - SymPy 1.2 (las versiones anteriores no tienen la librería para "parsear" latex)
+
+```bash
+$ pip3 install -U sympy
+```
+
+## Uso de la función *parse_latex*
 Importamos la función *parse_latex*:
 
 
