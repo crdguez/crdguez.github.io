@@ -15,7 +15,7 @@ Carlos Rodríguez Jaso (Matemáticas)
 
 ## Equipo Educativo:
 
-![](./img/2018-09-13-095439_897x352_scrot.png)
+![](/assets/img/2018-09-13-095439_897x352_scrot.png)
 
 - BIO2: ORTEGA PEÑA, M. ELENA 
 - EF1: TURÓN MARCO, YOLANDA 
@@ -24,7 +24,7 @@ Carlos Rodríguez Jaso (Matemáticas)
 
 ## Horario:
 
-![](./img/2018-09-13-094457_774x672_scrot.png)
+![](/assets/img/2018-09-13-094457_774x672_scrot.png)
 
 ## Algunas consideraciones
 
