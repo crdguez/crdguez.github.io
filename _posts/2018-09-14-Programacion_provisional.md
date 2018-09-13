@@ -14,12 +14,14 @@ Plan de trabajo:
 
 ![](/assets/img/1_bac_cit.svg)
 
+Con un poco más de detalle (pincha sobre la foto para verlo más grande):
+
+![](/assets/img/1_bac_cit_det.svg)
+
 ## Bachillerato de Humanidades
 
 ![](/assets/img/1_bac_chs.svg)
 
-Con un poco más de detalle:
-
-## 
+Con un poco más de detalle (pincha sobre la foto para verlo más grande):
 
 ![](/assets/img/1_bac_chs_det.svg)
