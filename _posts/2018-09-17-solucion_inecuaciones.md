@@ -9,7 +9,7 @@ eye_catch:
 \\[\frac{1}{x^3}\\]
 
 
-\\[\left|{x - 2}\right| - 1\leqslant0 \rightarrow  1 \leq x \wedge x \leq 3\\]
+\\[\left({x - 2}\right) - 1\leqslant0 \rightarrow  1 \leq x \wedge x \leq 3\\]
 
 \\[\left|{2 x + 3}\right| - 4<0 \rightarrow  - \frac{7}{2} < x \wedge x < \frac{1}{2}\\]
 \\[\left|{x + 5}\right| - 2\leqslant0 \rightarrow  -7 \leq x \wedge x \leq -3\\]
