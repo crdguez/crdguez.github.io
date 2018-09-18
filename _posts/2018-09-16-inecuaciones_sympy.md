@@ -9,7 +9,7 @@ eye_catch:
 [View in Colaboratory](https://colab.research.google.com/github/crdguez/learning_sympy/blob/master/inecuaciones.ipynb)
 
 
-Lo primero que necesitamos hacer es importar la librerias de *Python* que necesitaremos
+Lo primero que necesitamos hacer es importar las librerias de *Python* que necesitaremos
 
 
 ```
@@ -47,7 +47,7 @@ Resuelve la inecuación $$\lvert x-2 \rvert \leq 1 $$
 
 
 
-> La inecuación anterior es equivalente a $\lvert x-2 \rvert -1 \leq 0$  y se resuleve así
+> La inecuación anterior es equivalente a $\lvert x-2 \rvert -1 \leq 0$  y se resuelve con el siguiente código:
 
 
 
