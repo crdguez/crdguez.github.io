@@ -6,6 +6,8 @@ mathjax: true
 eye_catch: 
 ---
 
+En el siguiente enlace puedes probar todo lo que se explica en este artículo:
+
 [View in Colaboratory](https://colab.research.google.com/github/crdguez/learning_sympy/blob/master/inecuaciones.ipynb)
 
 
