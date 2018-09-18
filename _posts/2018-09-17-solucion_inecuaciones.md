@@ -11,6 +11,8 @@ eye_catch:
 
 \\[\left({x - 2}\right) - 1\leqslant0 \rightarrow  1 \leq x \wedge x \leq 3\\]
 
+\\[\lvert{x - 2}\rvert - 1\leqslant0 \rightarrow  1 \leq x \wedge x \leq 3\\]
+
 \\[\left|{2 x + 3}\right| - 4<0 \rightarrow  - \frac{7}{2} < x \wedge x < \frac{1}{2}\\]
 \\[\left|{x + 5}\right| - 2\leqslant0 \rightarrow  -7 \leq x \wedge x \leq -3\\]
 \\[\left|{3 x - 2}\right| - 0.5\leqslant0 \rightarrow  0.5 \leq x \wedge x \leq 0.833333333333333\\]
