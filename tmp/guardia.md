@@ -9,6 +9,6 @@ Carlos Rodríguez
 ### Tarea
 
  * Leer/repasar la página 3 y 4 (Apartado de Radicales)
- * Hacer ejercicos 13 a 28 de las páginas 6 y 7
+ * Hacer ejercicios 13 a 28 de las páginas 6 y 7
 
 
