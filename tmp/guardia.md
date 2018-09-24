@@ -1,14 +1,19 @@
-## Guardia 24/09 - 5ª Hora
+## Guardia 24/09 - 6ª Hora
 
 ### Profesor ausente:
 Carlos Rodríguez
 
 ### Hora / grupo / aula
-5ª hora/ 1ºBach CIT / 111
+6ª hora/ 4ºESO D  / 204
 
 ### Tarea
 
- * Leer/repasar la página 3 y 4 (Apartado de Radicales)
- * Hacer ejercicios 13 a 28 de las páginas 6 y 7
+
+ * Entregar hoja de ejercicios adjunta para que la hagan
+ * Se la quedan ellos, no hace falta recoger
+
+
+
+
 
 
