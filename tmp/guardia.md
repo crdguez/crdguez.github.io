@@ -12,8 +12,9 @@ Carlos Rodríguez
  * Entregar hoja de ejercicios adjunta para que la hagan
  * Se la quedan ellos, no hace falta recoger
 
-
-
+	- [tuxdrive](https://github.com/prahladyeri/tuxdrive)
+	- pip install --upgrade google-api-python-client
+	- pip install dependencias
 
 
 
