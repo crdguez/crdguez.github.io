@@ -11,7 +11,7 @@ En el siguiente enlace puedes probar todo lo que se explica en este artículo:
 [View in Colaboratory](https://colab.research.google.com/github/crdguez/aprendiendo_sympy/blob/master/inecuaciones.ipynb)
 
 
-Lo primero que necesitamos hacer es importar las librerias de *Python* que necesitaremos
+Lo primero que necesitamos hacer es importar las librerías de *Python* que necesitaremos
 
 
 ```
