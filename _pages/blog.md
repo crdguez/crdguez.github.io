@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blog
-permalink: 
+permalink: /index.html/
 order: 1
 share: false
 ---
