@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Un poco sobre mí
+title: Página Personal
 permalink: /about/
 order: 1
 share: false
@@ -9,4 +9,3 @@ share: false
 ## Presentación
 Me llamo Carlos Rodríguez y soy profesor de matemáticas en el [IES Pedro Cerrada](http://www.iespedrocerrada.org/)
 
-Enjoy! :smiley:
