@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Página Personal
-permalink: 
+permalink: /about/
 order: 1
 share: false
 ---
