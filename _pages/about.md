@@ -25,4 +25,4 @@ Me llamo Carlos Rodríguez y soy profesor de matemáticas en el [IES Pedro Cerra
 
 ### Licencia
 
-<img src="/assets/img/attribution-share-alike-creative-commons-license.png" width="300px">
+<img src="/assets/img/attribution-share-alike-creative-commons-license.png" align="center" style="padding-right:0px" width="20%">
