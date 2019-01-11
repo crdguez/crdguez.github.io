@@ -12,4 +12,10 @@ El caso es que muchas de esas actividades están hechas con [Tarsia]( http://www
 
 Buscando en Github alguna alternativa a Tarsia que fuera libre y que pudiera ejecutar en GNU-Linux, me topé con [Jigsaw-generator](https://github.com/juliangilbey/jigsaw-generator) de [Julian Gilbey](https://github.com/juliangilbey). ¡Muchas gracias, Julian!
 
-(en construcción)
+Este es un ejemplo del aspecto que tienen los puzzles generados. Este en concreto se ha sacado de un ejemplo que el autor tiene colgado en el repositorio de la aplicación:
+
+![](img/ejemplo_jigsaw.png)
+
+Vamos a ver cómo se instala y como se usa:
+
+## Instalando Jigsaw-generator de 
