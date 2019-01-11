@@ -22,7 +22,7 @@ Vamos a ver cómo se instala y como se usa:
 
 ### Prerrequisitos
 
-En el archivo [INSTALL](https://github.com/juliangilbey/jigsaw-generator/blob/master/INSTALL) del repositorio indica que es necesario tener instalado:
+En el archivo [INSTALL](https://github.com/juliangilbey/jigsaw-generator/blob/master/INSTALL) del repositorio indica qué es necesario tener instalado:
 
 * *Python 3.x* (¿A qué  estás esperando si todavía no usas *Python*?)
 * Una distribución $\TeX$ ($\LaTeX$)
@@ -38,7 +38,7 @@ sudo -H pip3 install PyYAML
 
 Se da por descontado que has descargado el repositorio de la aplicación y que la ruta de trabajo apunta a esa carpeta.
 
-Solo hay que ejecutar los típicos:
+Tal como pone en [INSTALL](https://github.com/juliangilbey/jigsaw-generator/blob/master/INSTALL) ,solo hay que ejecutar los típicos:
 
 ```bash
 ./configure
