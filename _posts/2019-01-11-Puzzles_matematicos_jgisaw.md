@@ -14,7 +14,7 @@ Buscando en Github alguna alternativa a Tarsia que fuera libre y que pudiera eje
 
 Este es un ejemplo del aspecto que tienen los puzzles generados. Este en concreto se ha sacado de un ejemplo que el autor tiene colgado en el repositorio de la aplicación:
 
-![](img/ejemplo_jigsaw.png)
+![](/assets/img/ejemplo_jigsaw.png  width="40%")
 
 Vamos a ver cómo se instala y como se usa:
 
