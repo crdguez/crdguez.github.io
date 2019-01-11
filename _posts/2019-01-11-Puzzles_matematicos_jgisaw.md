@@ -14,12 +14,16 @@ Buscando en Github alguna alternativa a Tarsia que fuera libre y que pudiera eje
 
 Este es un ejemplo del aspecto que tienen los puzzles generados. Este en concreto se ha sacado de un ejemplo que el autor tiene colgado en el repositorio de la aplicación:
 
-![](/assets/img/ejemplo_jigsaw.png  width="40%")
-
-
+<img src="/assets/img/ejemplo_jigsaw.png" width="40%">
 
 Vamos a ver cómo se instala y como se usa:
 
 ## Instalando Jigsaw-generator de Julian Gilbey
 
-En el archivo
+### Prerrequisitos
+
+En el archivo [INSTALL](https://github.com/juliangilbey/jigsaw-generator/blob/master/INSTALL) del repositorio indica que es necesario tener instalado:
+
+* *Python 3.x* (¿A qué  estás esperando si todavía no usas *Python*?)
+* Una distribución $\TeX$ ($\LaTeX$)
+* Y el módulo *PyYaml* para manejar ficheros *Yaml*
