@@ -27,3 +27,31 @@ En el archivo [INSTALL](https://github.com/juliangilbey/jigsaw-generator/blob/ma
 * *Python 3.x* (¿A qué  estás esperando si todavía no usas *Python*?)
 * Una distribución $\TeX$ ($\LaTeX$)
 * Y el módulo *PyYaml* para manejar ficheros *Yaml*
+
+Podemos instalar el módulo *PyYaml* con el siguiente comando:
+
+```python
+sudo -H pip3 install PyYAML
+```
+
+### Instalación propiamente dicha
+
+Se da por descontado que has descargado el repositorio de la aplicación y que la ruta de trabajo apunta a esa carpeta.
+
+Solo hay que ejecutar los típicos:
+
+```bash
+./configure
+make
+sudo make install
+```
+
+Si todo va bien hará la instalación sin errores
+
+### Uso básico
+
+...
+
+### Uso "pitónico"
+
+...
