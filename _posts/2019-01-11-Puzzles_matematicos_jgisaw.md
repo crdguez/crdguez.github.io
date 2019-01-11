@@ -11,3 +11,5 @@ Si tengo que recomendar una web de actividades matemáticas mediante juegos, esa
 El caso es que muchas de esas actividades están hechas con [Tarsia]( http://www.mmlsoft.com/index.php/products/tarsia). Por ejemplo: [este](https://anagarciaazcarate.wordpress.com/2018/11/20/puzle-hexagonal-de-las-rectas-paralelas/)
 
 Buscando en Github alguna alternativa a Tarsia que fuera libre y que pudiera ejecutar en GNU-Linux, me topé con [Jigsaw-generator](https://github.com/juliangilbey/jigsaw-generator) de [Julian Gilbey](https://github.com/juliangilbey). ¡Muchas gracias, Julian!
+
+(en construcción)
