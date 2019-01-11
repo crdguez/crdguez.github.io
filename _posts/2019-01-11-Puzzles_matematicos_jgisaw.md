@@ -16,6 +16,10 @@ Este es un ejemplo del aspecto que tienen los puzzles generados. Este en concret
 
 ![](/assets/img/ejemplo_jigsaw.png  width="40%")
 
+
+
 Vamos a ver cómo se instala y como se usa:
 
-## Instalando Jigsaw-generator de 
+## Instalando Jigsaw-generator de Julian Gilbey
+
+En el archivo
