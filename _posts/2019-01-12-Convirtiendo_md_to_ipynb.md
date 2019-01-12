@@ -33,5 +33,5 @@ notedown input.md > output.ipynb
 
 ```
 
-¡ Gracias Aaron, me ha resultado muy útil
+¡ Gracias Aaron, me ha resultado muy útil!
 
