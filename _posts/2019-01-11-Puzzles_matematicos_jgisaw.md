@@ -60,7 +60,82 @@ Si lo ejecutamos sin ningún parámetro devolverá lo siguiente:
 
 <img src="/assets/img/cmd_jigsaw.png" width="40%">
 
-El error que nos da indica que necesitamos pasarle un fichero *.yaml* con toda la información del puzzle
+El error que nos da indica que necesitamos pasarle un fichero *.yaml* con toda la información del puzzle:
+
+Veamos el ejemplo que corresponde con la imagen del puzzle que hemos visto antes y que aparece en el repositorio del autor:
+
+```yaml
+# A hexagonal jigsaw puzzle, from http://www.mrbartonmaths.com/jigsaw.htm
+format: 1
+type: hexagon
+title: Powers and roots
+note: "The `?' means a number for you to fill in"
+pairs:
+    - ['$10^6\div10^3$', '$1000$']
+    - ['$10^{23}\div10^{21}$', '$100$']
+    - ['$9^4\times9^5$', '$9^9$']
+    - ['$(3^2)^2$', '$81$']
+    - ['$6\times6^2$', '$216$']
+    - ['$2^4\div2^6$', '$\dfrac{1}{4}$']
+    - - '$4^2\times4$'
+      - puzzletext: '?'
+        solutiontext: '$64$'
+    - ['$2^6\times2$', '$128$']
+    - ['$23.1^0$', '$1$']
+    - ['$3^3\times3^3$', '$3^6$']
+    - ['$\sqrt{64}-2^3$', '$0$']
+    - ['$\dfrac{1}{5^2}\times\dfrac{1}{5}$', '$\dfrac{1}{5^3}$']
+    - ['$5^2\div5^4$', '$\dfrac{1}{5^2}$']
+    - ['$3^2\times3^3$', '$3^5$']
+    - ['$(3^3)^3$', '$3^9$']
+    - ['$2^3\div\sqrt{16}$', '$2$']
+    - - '$2^6\div2^4$'
+      - puzzletext: '?'
+        solutiontext: '$4$'
+    - ['$4^4\times4^4$', '$4^8$']
+    - ['$\sqrt{49}$', '$7$']
+    - ['$\sqrt{25}\times\sqrt{36}$', '$30$']
+    - ['$\sqrt{144}\div\sqrt{16}$', '$3$']
+    - ['$2^3\div2^4$', '$\dfrac{1}{2}$']
+    - ['$2\times2^2\times2^2$', '$32$']
+    - ['$10^2\times100$', '$10\,000$']
+    - ['$3^6\div3^9$', '$\dfrac{1}{3^3}$']
+    - ['$3^8\div3^5$', '$3^3$']
+    - ['$5^5\div5\times5^2$', '$5^6$']
+    - ['$9^9\times9^9$', '$9^{18}$']
+    - ['$(9^9)^9$', '$9^{81}$']
+    - ['$(4^4)^4$', '$4^{16}$']
+edges:
+    - '$-1$'
+    - '$10$'
+    - '$13^2\div13$'
+    - '$39$'
+    - '$13^3$'
+    - '$108$'
+    - '$\dfrac{1}{2}$'
+    - '$\sqrt{128}$'
+    - '$\sqrt{20}$'
+    - '$2^{\frac{1}{2}}$'
+    - '$\dfrac{3}{2}$'
+	- '$9^{10}$'
+```
+
+El fichero *yaml* tiene una serie de campos:
+
+* format: la versión del formato de archivo, debe tener 1 ya que solo hay una versión de la aplicación
+* type: El tipo de rompecabezas que se está creando.
+	* smallhexagon, que consta de 6 triángulos
+	* hexagon, que consta de 24 triángulos
+	* triangle,  que consiste en 16 triángulos más pequeños
+	* parquet, que consta de 4 cuadrados y 8 triángulos.
+* title: Título
+* textSize: Tamaño del texto. Va de 0-9 siendo el 0 el más pequeño. Por defectovale 5
+* note: Subtítulo o nota explicativa arriba en la páginas
+* pairs: Pares de ejercicio-solución. Se ponen entre corchetes y en código $\LaTeX$
+* edges: Ejercicios que no se asocian a ninguna solución porque forman las esquinas del puzzle
+
+
+Existen más opciones, para más detalle se remite a la documentación
 
 ### Uso "pitónico"
 
