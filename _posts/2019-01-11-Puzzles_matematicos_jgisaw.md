@@ -50,7 +50,17 @@ Si todo va bien hará la instalación sin errores
 
 ### Uso básico
 
-...
+El comando que genera el puzzle es:
+
+```bash
+$ jigsaw-generate
+```
+
+Si lo ejecutamos sin ningún parámetro devolverá lo siguiente:
+
+<img src="/assets/img/cmd_jigsaw.png" width="40%">
+
+El error que nos da indica que necesitamos pasarle un fichero *.yaml* con toda la información del puzzle
 
 ### Uso "pitónico"
 
