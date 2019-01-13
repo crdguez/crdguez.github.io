@@ -175,7 +175,7 @@ El resultado es:
 
 Y su solución:
 
-<img src="/assets/img/hexagono_solucion.png" width="40%">
+<img src="../assets/img/hexagono_solucion.png" width="40%">
 
 
 
