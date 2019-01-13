@@ -129,7 +129,7 @@ El fichero *yaml* tiene una serie de campos:
 	* **triangle**,  que consiste en 16 triángulos más pequeños
 	* **parquet**, que consta de 4 cuadrados y 8 triángulos.
 * **title**: Título
-* **textSize**: Tamaño del texto. Va de 0-9 siendo el 0 el más pequeño. Por defectovale 5
+* **textSize**: Tamaño del texto. Va de 0-9 siendo el 0 el más pequeño. Por defecto vale 5
 * **note**: Subtítulo o nota explicativa arriba en la páginas
 * **pairs**: Pares de ejercicio-solución. Se ponen entre corchetes y en código $\LaTeX$
 * **edges**: Ejercicios que no se asocian a ninguna solución porque forman las esquinas del puzzle
@@ -138,7 +138,46 @@ Existen más opciones, para más detalle se remite a la documentación de la apl
 
 #### Ejemplo de uso
 
-Vamos entonces a crear un puzzle
+Vamos entonces a crear un puzzle sencillo:
+
+El más sencillo es de tipo *smallhexagon* de 6 triángulos. Luego necesito 6 *pairs* y 6 *edges*. Creamos el fichero *prueba_angulos.yaml*:
+
+```yaml
+type: smallhexagon
+title: Radianes y grados
+note: "Identifica angulos iguales"
+pairs:
+    - ['$0$','$0$']
+    - ['$90$','$\frac{\pi}{2}$']
+    - ['$180$','$\pi$']
+    - ['$270$','$\frac{3\pi}{2}$']
+    - ['$360$','$2\pi$']
+    - ['$45$','$\frac{\pi}{4}$']
+edges:
+    - '$\frac{\pi}{6}$'
+    - '$\frac{2\pi}{6}$'
+    - '$\frac{\pi}{3}$'
+    - '$\frac{\pi}{5}$'
+    - '$\frac{5\pi}{6}$'
+    - '$\frac{2\pi}{6}$'
+
+```
+
+Solo nos queda ejecutar:
+
+```bash
+$ jigsaw-generate prueba_angulos.yaml
+```
+
+El resultado es:
+
+<img src="/assets/img/hexagon_angulos.png" width="40%">
+
+Y su solución:
+
+<img src="/assets/img/hexagono_solucion.png" width="40%">
+
+
 
 ### Uso "pitónico"
 
