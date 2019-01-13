@@ -171,7 +171,7 @@ $ jigsaw-generate prueba_angulos.yaml
 
 El resultado es:
 
-<img src="/assets/img/hexagon_angulos.png" width="40%">
+<img src="/assets/img/hexagono_angulos.png" width="40%">
 
 Y su solución:
 
