@@ -145,7 +145,7 @@ El más sencillo es de tipo *smallhexagon* de 6 triángulos. Luego necesito 6 *p
 ```yaml
 type: smallhexagon
 title: Radianes y grados
-note: "Identifica angulos iguales"
+note: "Identifica ángulos iguales"
 pairs:
     - ['$0$','$0$']
     - ['$90$','$\frac{\pi}{2}$']
