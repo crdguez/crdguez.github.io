@@ -122,20 +122,23 @@ edges:
 
 El fichero *yaml* tiene una serie de campos:
 
-* format: la versión del formato de archivo, debe tener 1 ya que solo hay una versión de la aplicación
-* type: El tipo de rompecabezas que se está creando.
-	* smallhexagon, que consta de 6 triángulos
-	* hexagon, que consta de 24 triángulos
-	* triangle,  que consiste en 16 triángulos más pequeños
-	* parquet, que consta de 4 cuadrados y 8 triángulos.
-* title: Título
-* textSize: Tamaño del texto. Va de 0-9 siendo el 0 el más pequeño. Por defectovale 5
-* note: Subtítulo o nota explicativa arriba en la páginas
-* pairs: Pares de ejercicio-solución. Se ponen entre corchetes y en código $\LaTeX$
-* edges: Ejercicios que no se asocian a ninguna solución porque forman las esquinas del puzzle
+* **format**: la versión del formato de archivo, debe tener 1 ya que solo hay una versión de la aplicación
+* **type**: El tipo de rompecabezas que se está creando.
+	* **smallhexagon**, que consta de 6 triángulos
+	* **hexagon**, que consta de 24 triángulos
+	* **triangle**,  que consiste en 16 triángulos más pequeños
+	* **parquet**, que consta de 4 cuadrados y 8 triángulos.
+* **title**: Título
+* **textSize**: Tamaño del texto. Va de 0-9 siendo el 0 el más pequeño. Por defectovale 5
+* **note**: Subtítulo o nota explicativa arriba en la páginas
+* **pairs**: Pares de ejercicio-solución. Se ponen entre corchetes y en código $\LaTeX$
+* **edges**: Ejercicios que no se asocian a ninguna solución porque forman las esquinas del puzzle
 
+Existen más opciones, para más detalle se remite a la documentación de la aplicación.
 
-Existen más opciones, para más detalle se remite a la documentación
+#### Ejemplo de uso
+
+Vamos entonces a crear un puzzle
 
 ### Uso "pitónico"
 
