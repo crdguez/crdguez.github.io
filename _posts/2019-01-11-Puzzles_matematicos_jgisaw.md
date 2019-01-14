@@ -117,7 +117,7 @@ edges:
     - '$\sqrt{20}$'
     - '$2^{\frac{1}{2}}$'
     - '$\dfrac{3}{2}$'
-	- '$9^{10}$'
+    - '$9^{10}$'
 ```
 
 El fichero *yaml* tiene una serie de campos:
@@ -129,7 +129,7 @@ El fichero *yaml* tiene una serie de campos:
 	* **triangle**,  que consiste en 16 triángulos más pequeños
 	* **parquet**, que consta de 4 cuadrados y 8 triángulos.
 * **title**: Título
-* **textSize**: Tamaño del texto. Va de 0-9 siendo el 0 el más pequeño. Por defecto vale 5
+* **puzzleTextSize** o **solutionTextSize**: Tamaño del texto. Va de 0-9 siendo el 0 el más pequeño. Por defecto vale 5
 * **note**: Subtítulo o nota explicativa arriba en la páginas
 * **pairs**: Pares de ejercicio-solución. Se ponen entre corchetes y en código $\LaTeX$
 * **edges**: Ejercicios que no se asocian a ninguna solución porque forman las esquinas del puzzle
