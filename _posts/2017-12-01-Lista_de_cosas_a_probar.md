@@ -23,5 +23,6 @@ Esa pila de cosas a probar pero que nunca hay tiempo:
   * [Diagramas de gantt con Python](https://www.pythoniza.me/python-gantt/)
   * [web scraping](https://www.seleniumhq.org/)
   * [Lektor - Generador de web estática](https://www.getlektor.com/) y [https://www.staticgen.com/](https://www.staticgen.com/)
-  
+  * [uso de docker](https://www.muylinux.com/2016/04/19/tutorial-docker/)
+
 Habrá que probarlos. 
