@@ -24,5 +24,7 @@ Esa pila de cosas a probar pero que nunca hay tiempo:
   * [web scraping](https://www.seleniumhq.org/)
   * [Lektor - Generador de web estática](https://www.getlektor.com/) y [https://www.staticgen.com/](https://www.staticgen.com/)
   * [uso de docker](https://www.muylinux.com/2016/04/19/tutorial-docker/)
+      * docker exec -dt mi_bs sh -c "python3.7 -m http.server 9000 -d /home/BlocksCAD"
+      * docker run -it --name mi_bs -p 9000:9000 6098f0ec3553 sh -c "python3.7 -m http.server 9000 -d /home/BlocksCAD"
 
 Habrá que probarlos. 
