@@ -26,5 +26,7 @@ Esa pila de cosas a probar pero que nunca hay tiempo:
   * [uso de docker](https://www.muylinux.com/2016/04/19/tutorial-docker/)
       * docker exec -dt mi_bs sh -c "python3.7 -m http.server 9000 -d /home/BlocksCAD"
       * docker run -it --name mi_bs -p 9000:9000 6098f0ec3553 sh -c "python3.7 -m http.server 9000 -d /home/BlocksCAD"
+      * [subir a heroku](https://medium.com/travis-on-docker/how-to-run-dockerized-apps-on-heroku-and-its-pretty-great-76e07e610e22)
+      * [https://serene-refuge-50391.herokuapp.com/](https://serene-refuge-50391.herokuapp.com/)
 
 Habrá que probarlos. 
