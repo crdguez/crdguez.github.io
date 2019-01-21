@@ -24,9 +24,11 @@ Esa pila de cosas a probar pero que nunca hay tiempo:
   * [web scraping](https://www.seleniumhq.org/)
   * [Lektor - Generador de web estática](https://www.getlektor.com/) y [https://www.staticgen.com/](https://www.staticgen.com/)
   * [uso de docker](https://www.muylinux.com/2016/04/19/tutorial-docker/)
-      * docker exec -dt mi_bs sh -c "python3.7 -m http.server 9000 -d /home/BlocksCAD"
+      * docker exec -dt mi_bs sh -c "python3.7 -m http.server 9000 -d /home/BlocksCAD"r
       * docker run -it --name mi_bs -p 9000:9000 6098f0ec3553 sh -c "python3.7 -m http.server 9000 -d /home/BlocksCAD"
       * [subir a heroku](https://medium.com/travis-on-docker/how-to-run-dockerized-apps-on-heroku-and-its-pretty-great-76e07e610e22)
       * [https://serene-refuge-50391.herokuapp.com/](https://serene-refuge-50391.herokuapp.com/)
+      * docker exec -i -t container  /bin/bash (abre una terminal en el contenedor)
+      * docker run -v $(pwd):/app --name mi_name container (monta la carpeta actual en el host en la que digas del contenedor)
 
 Habrá que probarlos. 
