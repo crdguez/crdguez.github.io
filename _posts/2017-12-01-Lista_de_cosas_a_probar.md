@@ -29,6 +29,6 @@ Esa pila de cosas a probar pero que nunca hay tiempo:
       * [subir a heroku](https://medium.com/travis-on-docker/how-to-run-dockerized-apps-on-heroku-and-its-pretty-great-76e07e610e22)
       * [https://serene-refuge-50391.herokuapp.com/](https://serene-refuge-50391.herokuapp.com/)
       * docker exec -i -t container  /bin/bash (abre una terminal en el contenedor)
-      * docker run -v $(pwd):/app --name mi_name container (monta la carpeta actual en el host en la que digas del contenedor)
+      * docker run -v $(pwd):/app -p 8050:8050 --name mi_name image (monta la carpeta actual en el host en la que digas del contenedor)
 
 Habrá que probarlos. 
