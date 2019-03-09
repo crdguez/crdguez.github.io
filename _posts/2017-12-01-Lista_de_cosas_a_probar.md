@@ -30,5 +30,6 @@ Esa pila de cosas a probar pero que nunca hay tiempo:
       * [https://serene-refuge-50391.herokuapp.com/](https://serene-refuge-50391.herokuapp.com/)
       * docker exec -i -t container  /bin/bash (abre una terminal en el contenedor)
       * docker run -v $(pwd):/app -p 8050:8050 --name mi_name image (monta la carpeta actual en el host en la que digas del contenedor)
+  * [filtros pandoc para pasar tikz a imágenes](https://tex.stackexchange.com/questions/445051/pandoc-exporting-tikz-figures-and-other-environments-from-latex-to-other-format)
 
 Habrá que probarlos. 
