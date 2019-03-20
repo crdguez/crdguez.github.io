@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rectas y puntos notables del triángulo
-tags: matematicas triángulo
+tags: matematicas triángulo 1ESO 2ESO 3ESO 4ESO
 mathjax: true
 eye_catch: 
 ---
