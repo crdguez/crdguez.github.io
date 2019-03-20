@@ -33,7 +33,7 @@ El punto de corte de las tres mediatrices equidista a los tres vértices
 del triángulo. Ha dicho punto se le llama **circuncentro** porque
 permite circunscribir el triángulo en una circunferencia de centro dicho punto.
 
-<img src="/assets/img/cicuncentro.png" width="40%">
+<img src="/assets/img/circuncentro.png" width="40%">
 
 Altura
 ------
