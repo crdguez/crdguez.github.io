@@ -15,6 +15,10 @@ vértice opuesto.
 Al punto dónde se cortan las medianas de un triángulo se le llama
 **baricentro** y constituye el centro de gravedad del polígono.
 
+
+
+<img src="/assets/img/baricentro.png" width="800px">
+
 Mediatriz
 ---------
 
