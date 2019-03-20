@@ -17,7 +17,7 @@ Al punto dónde se cortan las medianas de un triángulo se le llama
 
 
 
-<img src="/assets/img/baricentro.png" width="70%">
+<img src="/assets/img/baricentro.png" width="40%">
 
 Mediatriz
 ---------
