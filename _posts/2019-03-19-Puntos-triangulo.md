@@ -31,8 +31,9 @@ lados.
 
 El punto de corte de las tres mediatrices equidista a los tres vértices
 del triángulo. Ha dicho punto se le llama **circuncentro** porque
-permite circunscribir el triángulo en una circunferencia de centro dicho
-punto.
+permite circunscribir el triángulo en una circunferencia de centro dicho punto.
+
+<img src="/assets/img/cicuncentro.png" width="40%">
 
 Altura
 ------
@@ -41,6 +42,8 @@ Llamaremos **altura** de un triángulo al segmento perpendicular a un
 lado y pasa por el vértice opuesto.
 
 Al punto de corte de las alturas se le llama **ortocentro**.
+
+<img src="/assets/img/ortocentro.png" width="40%">
 
 Bisectriz
 ---------
@@ -51,3 +54,5 @@ correspondientes a cada uno de los tres ángulos.
 
 Llamaremos **incentro** al punto de corte de las bisectrices de un
 triángulo.
+
+<img src="/assets/img/incentro.png" width="40%">
