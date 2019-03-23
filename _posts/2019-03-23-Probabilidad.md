@@ -182,21 +182,20 @@ es blanca. La situación cambia, porque que sea blanca implica que hay 3
 casos posibles y dos de las tres son impares. A esta nueva probabilidad
 se le llama condicionada y se denota así:
 
-
-$P(I\|B)=\\dfrac{2}{3}$
+$P(I\\|B)=\\dfrac{2}{3}$
 
 La probabilidad de que sea impar ha aumentado por el hecho de haber
 añadido la condición (o información) que es blanca.  
 Esta probabilidad la podemos transformar:
 
-$P(I|B)=\\dfrac{2}{3}=\\dfrac{\\dfrac{2}{8}}{\\dfrac{3}{8}}=\\dfrac{P(I\\cap B)}{P(B)}$
+$P(I\\|B)=\\dfrac{2}{3}=\\dfrac{\\dfrac{2}{8}}{\\dfrac{3}{8}}=\\dfrac{P(I\\cap B)}{P(B)}$
 
 Generalización del fórmula de la probabilidad condicionada
 ----------------------------------------------------------
 
-$P(A|B)=\\dfrac{P(A\\cap B)}{P(B)}$
+$P(A\\|B)=\\dfrac{P(A\\cap B)}{P(B)}$
 y despejando:
-*P*(*A* ∩ *B*) = *P*(*A*|*B*) ⋅ *P*(*B*)
+*P*(*A* ∩ *B*) = *P*(*A*\|*B*) ⋅ *P*(*B*)
 
 Experimentos compuestos
 =======================
@@ -211,7 +210,7 @@ Lanzar tre monedas, extraer cuatro cartas de una baraja, ...
 La probabilidad de un suceso compuesto se podrá calcular a partir de las
 probabilidades obtenidas de los experimentos simples usando la
 probabilidad condicional:
-*P*(*A* ∩ *B*) = *P*(*A*) ⋅ *P*(*B*|*A*)
+*P*(*A* ∩ *B*) = *P*(*A*) ⋅ *P*(*B*\|*A*)
 
 Independencia y dependencia de sucesos
 --------------------------------------
@@ -219,7 +218,7 @@ Independencia y dependencia de sucesos
 Se dice que dos sucesos son independientes cuando la probabilidad de
 cada uno no depende del resultado del otro.
 
-*A* *y* *B* *s**o**n* *i**n**d**e**p**e**n**d**i**e**n**t**e**s* ⇔ *P*(*B*|*A*) = *P*(*B*)
+*A* *y* *B* *s**o**n* *i**n**d**e**p**e**n**d**i**e**n**t**e**s* ⇔ *P*(*B*\|*A*) = *P*(*B*)
 
 ##### Ejemplos de sucesos independientes:
 
@@ -245,10 +244,10 @@ probabilidades de los diferentes resultados:
 \-
 
 Probabilidad de que las dos sean blancas:  
-$P(B\_1\\cap B\_2)=P(B\_1)\\cdot P(B\_2|B\_1)=\\frac{3}{5}\\cdot\\frac{2}{4}=\\frac{3}{10}$
+$P(B\_1\\cap B\_2)=P(B\_1)\\cdot P(B\_2\|B\_1)=\\frac{3}{5}\\cdot\\frac{2}{4}=\\frac{3}{10}$
 
 Probabilidad de que las dos sean negras:  
-$P(N\_1\\cap N\_2)=P(N\_1)\\cdot P(N\_2|N\_1)=\\frac{2}{5}\\cdot\\frac{1}{4}=\\frac{1}{10}$
+$P(N\_1\\cap N\_2)=P(N\_1)\\cdot P(N\_2\|N\_1)=\\frac{2}{5}\\cdot\\frac{1}{4}=\\frac{1}{10}$
 
 Probabilidad de que sean del mismo color:  
 $P((B\_1\\cap B\_2)\\cup (N\_1\\cap N\_2))=\\frac{3}{10}+\\frac{1}{10}=\\frac{2}{5}$
@@ -266,10 +265,10 @@ En una urna hay tres bolas blancas y dos negras. Se extraen dos bolas
 \-
 
 Probabilidad de que las dos sean blancas:  
-$P(B\_1\\cap B\_2)=P(B\_1)\\cdot P(B\_2|B\_1)=\\frac{3}{5}\\cdot\\frac{3}{5}=\\frac{9}{25}$
+$P(B\_1\\cap B\_2)=P(B\_1)\\cdot P(B\_2\|B\_1)=\\frac{3}{5}\\cdot\\frac{3}{5}=\\frac{9}{25}$
 
 Probabilidad de que las dos sean negras:  
-$P(N\_1\\cap N\_2)=P(N\_1)\\cdot P(N\_2|N\_1)=\\frac{2}{5}\\cdot\\frac{2}{5}=\\frac{4}{25}$
+$P(N\_1\\cap N\_2)=P(N\_1)\\cdot P(N\_2\|N\_1)=\\frac{2}{5}\\cdot\\frac{2}{5}=\\frac{4}{25}$
 
 Probabilidad de que sean del mismo color:  
 $P((B\_1\\cap B\_2)\\cup (N\_1\\cap N\_2))=\\frac{9}{25}+\\frac{4}{25}=\\frac{13}{25}$
@@ -292,7 +291,7 @@ Por tanto,
 $P(G)=P(G \\cap E\_1)+P(G \\cap E\_2)+P(G \\cap E\_3)+P(G \\cap E\_4)=\\sum\_{i=1}^4 P(G \\cap E\_i)$
 Aplicando la probabilidad condicionada:
 $\\begin{aligned}
-P(G)=P(E\_1)\\cdot P(G|E\_1)+P(E\_2)\\cdot P(G|E\_2)+\\\\+P(E\_3)\\cdot P(G|E\_3)+P(E\_1)\\cdot P(G|E\_4)= \\\\ =\\sum\_{i=1}^4 P(E\_i)\\cdot  P(G|E\_i)\\end{aligned}$
+P(G)=P(E\_1)\\cdot P(G\|E\_1)+P(E\_2)\\cdot P(G\|E\_2)+\\\\+P(E\_3)\\cdot P(G\|E\_3)+P(E\_1)\\cdot P(G\|E\_4)= \\\\ =\\sum\_{i=1}^4 P(E\_i)\\cdot  P(G\|E\_i)\\end{aligned}$
 
 Probabilidad total
 ------------------
@@ -305,7 +304,7 @@ Si *A*<sub>1</sub>, *A*<sub>2</sub>, ..., *A*<sub>*n*</sub> son sucesos
 incompatibles dos a dos y cuya unión es todo el espacio muestral,
 entonces la probabilidad de cualquier otro suceso *B* es:
 
-$P(B)=\\sum\_{i=1}^n P(A\_i)\\cdot  P(B|A\_i)$
+$P(B)=\\sum\_{i=1}^n P(A\_i)\\cdot  P(B\|A\_i)$
 
 ### Ejemplo:
 
@@ -314,7 +313,7 @@ y dos negras. Si se extraen dos bolas, por ejemplo **sin**
 reemplazamiento, podemos calcular la probabilidad de que la segunda bola
 haya sido blanca:
 
-$P(B\_2)=P(B\_1)\\cdot P(B\_2|B\_1) + P(N\_1)\\cdot P(B\_2|N\_1)
+$P(B\_2)=P(B\_1)\\cdot P(B\_2\|B\_1) + P(N\_1)\\cdot P(B\_2\|N\_1)
 = \\frac{3}{5}\\cdot\\frac{2}{4} + \\frac{2}{5}\\cdot\\frac{3}{4}$
 
 Teorema de Bayes
@@ -324,14 +323,14 @@ Si *A*<sub>1</sub>, *A*<sub>2</sub>, ..., *A*<sub>*n*</sub> son sucesos
 incompatibles dos a dos y cuya unión es todo el espacio muestral, y *B*
 otro suceso cualquiera:
 
-$P(A\_i|B)=\\dfrac{P(A\_i \\cap B)}{\\sum\_{i=1}^n P(A\_i)\\cdot  P(B|A\_i)}$
+$P(A\_i\|B)=\\dfrac{P(A\_i \\cap B)}{\\sum\_{i=1}^n P(A\_i)\\cdot  P(B\|A\_i)}$
 
 #### Demostración:
 
 Por la probabilidad condicionada:
-$P(A\_i|B)=\\dfrac{P(A\_i \\cap B)}{P(B)}$
+$P(A\_i\|B)=\\dfrac{P(A\_i \\cap B)}{P(B)}$
 Pero por la probabilidad total:
-$P(B)=\\sum\_{i=1}^n P(A\_i)\\cdot  P(B|A\_i)$
+$P(B)=\\sum\_{i=1}^n P(A\_i)\\cdot  P(B\|A\_i)$
 Sustituyendo esta en la primera obtenemos el resultado
 
 Ejemplo:
@@ -339,4 +338,4 @@ Ejemplo:
 
 En el ejemplo del apartado anterior calcular la probabilidad de que la
 primera bola haya sido blanca si se sabe que la segunda ha sido blanca:
-$P(B\_1|B\_2)=\\dfrac{P(B\_1 \\cap B\_2)}{P(B\_1)\\cdot  P(B\_2|B\_1)+P(N\_1)\\cdot  P(N\_2|B\_1)}=\\dfrac{\\dfrac{3}{5}\\cdot\\dfrac{2}{4}}{\\dfrac{3}{5}\\cdot\\dfrac{2}{4} + \\dfrac{2}{5}\\cdot\\dfrac{3}{4}}$
+$P(B\_1\|B\_2)=\\dfrac{P(B\_1 \\cap B\_2)}{P(B\_1)\\cdot  P(B\_2\|B\_1)+P(N\_1)\\cdot  P(N\_2\|B\_1)}=\\dfrac{\\dfrac{3}{5}\\cdot\\dfrac{2}{4}}{\\dfrac{3}{5}\\cdot\\dfrac{2}{4} + \\dfrac{2}{5}\\cdot\\dfrac{3}{4}}$
