@@ -175,15 +175,19 @@ tres primeras son blancas y el resto negras, luego
 *E* = {*B*<sub>1</sub>, *B*<sub>2</sub>, *B*<sub>3</sub>, *N*<sub>4</sub>, *N*<sub>5</sub>, *N*<sub>6</sub>, *N*<sub>7</sub>, *N*<sub>8</sub>}.  
 A priori, la
 $P(\\lbrace Sea\\ impar\\rbrace )=\\frac{4}{8}=\\frac{1}{2}$ por la
-regla de Laplace. Tiene la misma probabilidad salir par que impar  
+regla de Laplace. Tiene la misma probabilidad salir par que impar.
+  
 Vamos a suponer ahora que durante la extracción se percibe que la bola
 es blanca. La situación cambia, porque que sea blanca implica que hay 3
 casos posibles y dos de las tres son impares. A esta nueva probabilidad
 se le llama condicionada y se denota así:
+
 $P(I|B)=\\dfrac{2}{3}$
+
 La probabilidad de que sea impar ha aumentado por el hecho de haber
 añadido la condición (o información) que es blanca.  
 Esta probabilidad la podemos transformar:
+
 $P(I|B)=\\dfrac{2}{3}=\\dfrac{\\dfrac{2}{8}}{\\dfrac{3}{8}}=\\dfrac{P(I\\cap B)}{P(B)}$
 
 Generalización del fórmula de la probabilidad condicionada
