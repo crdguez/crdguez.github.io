@@ -19,8 +19,8 @@ Un experimento es aleatorio cuando depende de muchos factores y
 cualquier pequeña modificación de alguno implica obtener un resultado
 diferente.
 
-Ejemplos
---------
+### Ejemplos
+
  - **Aleatorio**: Lanzar un dado y ver el resultado
  - **Determinista**: Calcular el tiempo que tarda en caer un objeto al suelo desde una distancia determinada
 
@@ -61,14 +61,15 @@ Operaciones con sucesos y relaciones
 -   **Unión**: la unión de los sucesos *A* y *B* es aquel suceso que
     contiene a todos los elementos de *A* y a los de *B*. Se denota:
     *A* ∪ *B*
+
 <img src="/assets/img/tikz_union.png" width="30%">
 -   **Intersección**: la intersección de los sucesos *A* y *B* es aquel
     suceso que contiene a todos los elementos que están tanto en *A*
     como en *B*. Se denota: *A* ∩ *B*
+
 <img src="/assets/img/tikz_interseccion.png" width="30%">
 
-Ejemplo
--------
+### Ejemplos
 
 Tomamos como experimento el resultado de lanzar un dado, y los
 sucesos:  
