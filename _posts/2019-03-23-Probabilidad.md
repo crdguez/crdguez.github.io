@@ -143,7 +143,7 @@ Regla de Laplace
 
 La probabilidad de un suceso de un experimento regular viene determinada
 por la Regla de Laplace:
-$$P(A)=\\dfrac{Casos\\ favorables}{Casos\\ posibles}$$
+$$P(A)=\\frac{Casos\\ favorables}{Casos\\ posibles}$$
 
 ### Ejemplo
 
