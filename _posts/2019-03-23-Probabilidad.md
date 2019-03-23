@@ -181,7 +181,8 @@ Vamos a suponer ahora que durante la extracción se percibe que la bola
 es blanca. La situación cambia, porque que sea blanca implica que hay 3
 casos posibles y dos de las tres son impares. A esta nueva probabilidad
 se le llama condicionada y se denota así:
-$P(I|B)=\\dfrac{2}{3}$
+
+$P(I\|B)=\\dfrac{2}{3}$
 
 La probabilidad de que sea impar ha aumentado por el hecho de haber
 añadido la condición (o información) que es blanca.  
