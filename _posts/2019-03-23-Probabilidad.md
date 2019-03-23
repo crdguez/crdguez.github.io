@@ -204,16 +204,16 @@ Vamos a suponer ahora que durante la extracción se percibe que la bola
 es blanca. La situación cambia, porque que sea blanca implica que hay 3
 casos posibles y dos de las tres son impares. A esta nueva probabilidad
 se le llama condicionada y se denota así:
-$$P(I|B)=\\dfrac{2}{3}$$
+$P(I|B)=\\dfrac{2}{3}$
 La probabilidad de que sea impar ha aumentado por el hecho de haber
 añadido la condición (o información) que es blanca.  
 Esta probabilidad la podemos transformar:
-$$P(I|B)=\\dfrac{2}{3}=\\dfrac{\\dfrac{2}{8}}{\\dfrac{3}{8}}=\\dfrac{P(I\\cap B)}{P(B)}$$
+$P(I|B)=\\dfrac{2}{3}=\\dfrac{\\dfrac{2}{8}}{\\dfrac{3}{8}}=\\dfrac{P(I\\cap B)}{P(B)}$
 
 Generalización del fórmula de la probabilidad condicionada
 ----------------------------------------------------------
 
-$$P(A|B)=\\dfrac{P(A\\cap B)}{P(B)}$$
+$P(A|B)=\\dfrac{P(A\\cap B)}{P(B)}$
 y despejando:
 *P*(*A* ∩ *B*) = *P*(*A*|*B*) ⋅ *P*(*B*)
 
@@ -306,12 +306,12 @@ Como un alumno pertenece a un solo curso los sucesos
 *E**S**O*<sub>1</sub> , *E**S**O*<sub>2</sub>, *E**S**O*<sub>3</sub>, y
 *E**S**O*<sub>4</sub> (abreviados *E*<sub>1</sub>, etc.) son
 incompatibles. Además:
-$$G=(G \\cap E\_1)\\cup(G \\cap E\_2)\\cup(G \\cap E\_3)\\cup(G \\cap E\_4)=\\bigcup\_{i=1}^4(G \\cap E\_i)$$
+$G=(G \\cap E\_1)\\cup(G \\cap E\_2)\\cup(G \\cap E\_3)\\cup(G \\cap E\_4)=\\bigcup\_{i=1}^4(G \\cap E\_i)$
 Por tanto,
-$$P(G)=P(G \\cap E\_1)+P(G \\cap E\_2)+P(G \\cap E\_3)+P(G \\cap E\_4)=\\sum\_{i=1}^4 P(G \\cap E\_i)$$
+$P(G)=P(G \\cap E\_1)+P(G \\cap E\_2)+P(G \\cap E\_3)+P(G \\cap E\_4)=\\sum\_{i=1}^4 P(G \\cap E\_i)$
 Aplicando la probabilidad condicionada:
-$$\\begin{aligned}
-P(G)=P(E\_1)\\cdot P(G|E\_1)+P(E\_2)\\cdot P(G|E\_2)+\\\\+P(E\_3)\\cdot P(G|E\_3)+P(E\_1)\\cdot P(G|E\_4)= \\\\ =\\sum\_{i=1}^4 P(E\_i)\\cdot  P(G|E\_i)\\end{aligned}$$
+$\\begin{aligned}
+P(G)=P(E\_1)\\cdot P(G|E\_1)+P(E\_2)\\cdot P(G|E\_2)+\\\\+P(E\_3)\\cdot P(G|E\_3)+P(E\_1)\\cdot P(G|E\_4)= \\\\ =\\sum\_{i=1}^4 P(E\_i)\\cdot  P(G|E\_i)\\end{aligned}$
 
 Probabilidad total
 ------------------
@@ -324,7 +324,7 @@ Si *A*<sub>1</sub>, *A*<sub>2</sub>, ..., *A*<sub>*n*</sub> son sucesos
 incompatibles dos a dos y cuya unión es todo el espacio muestral,
 entonces la probabilidad de cualquier otro suceso *B* es:
 
-$$P(B)=\\sum\_{i=1}^n P(A\_i)\\cdot  P(B|A\_i)$$
+$P(B)=\\sum\_{i=1}^n P(A\_i)\\cdot  P(B|A\_i)$
 
 ### Ejemplo:
 
@@ -333,8 +333,8 @@ y dos negras. Si se extraen dos bolas, por ejemplo **sin**
 reemplazamiento, podemos calcular la probabilidad de que la segunda bola
 haya sido blanca:
 
-$$P(B\_2)=P(B\_1)\\cdot P(B\_2|B\_1) + P(N\_1)\\cdot P(B\_2|N\_1)
-= \\frac{3}{5}\\cdot\\frac{2}{4} + \\frac{2}{5}\\cdot\\frac{3}{4}$$
+$P(B\_2)=P(B\_1)\\cdot P(B\_2|B\_1) + P(N\_1)\\cdot P(B\_2|N\_1)
+= \\frac{3}{5}\\cdot\\frac{2}{4} + \\frac{2}{5}\\cdot\\frac{3}{4}$
 
 Teorema de Bayes
 ================
@@ -343,14 +343,14 @@ Si *A*<sub>1</sub>, *A*<sub>2</sub>, ..., *A*<sub>*n*</sub> son sucesos
 incompatibles dos a dos y cuya unión es todo el espacio muestral, y *B*
 otro suceso cualquiera:
 
-$$P(A\_i|B)=\\dfrac{P(A\_i \\cap B)}{\\sum\_{i=1}^n P(A\_i)\\cdot  P(B|A\_i)}$$
+$P(A\_i|B)=\\dfrac{P(A\_i \\cap B)}{\\sum\_{i=1}^n P(A\_i)\\cdot  P(B|A\_i)}$
 
 #### Demostración:
 
 Por la probabilidad condicionada:
-$$P(A\_i|B)=\\dfrac{P(A\_i \\cap B)}{P(B)}$$
+$P(A\_i|B)=\\dfrac{P(A\_i \\cap B)}{P(B)}$
 Pero por la probabilidad total:
-$$P(B)=\\sum\_{i=1}^n P(A\_i)\\cdot  P(B|A\_i)$$
+$P(B)=\\sum\_{i=1}^n P(A\_i)\\cdot  P(B|A\_i)$
 Sustituyendo esta en la primera obtenemos el resultado
 
 Ejemplo:
@@ -358,4 +358,4 @@ Ejemplo:
 
 En el ejemplo del apartado anterior calcular la probabilidad de que la
 primera bola haya sido blanca si se sabe que la segunda ha sido blanca:
-$$P(B\_1|B\_2)=\\dfrac{P(B\_1 \\cap B\_2)}{P(B\_1)\\cdot  P(B\_2|B\_1)+P(N\_1)\\cdot  P(N\_2|B\_1)}=\\dfrac{\\dfrac{3}{5}\\cdot\\dfrac{2}{4}}{\\dfrac{3}{5}\\cdot\\dfrac{2}{4} + \\dfrac{2}{5}\\cdot\\dfrac{3}{4}}$$
+$P(B\_1|B\_2)=\\dfrac{P(B\_1 \\cap B\_2)}{P(B\_1)\\cdot  P(B\_2|B\_1)+P(N\_1)\\cdot  P(N\_2|B\_1)}=\\dfrac{\\dfrac{3}{5}\\cdot\\dfrac{2}{4}}{\\dfrac{3}{5}\\cdot\\dfrac{2}{4} + \\dfrac{2}{5}\\cdot\\dfrac{3}{4}}$
