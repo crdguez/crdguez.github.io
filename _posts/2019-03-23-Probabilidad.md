@@ -6,8 +6,6 @@ mathjax: true
 eye_catch: 
 ---
 
-<img src="/assets/img/baricentro.png" width="40%">
-
 Experimento aleatorio
 =====================
 
@@ -83,6 +81,8 @@ Operaciones con sucesos y relaciones
     suceso que contiene a todos los elementos que están tanto en *A*
     como en *B*. Se denota: *A* ∩ *B*
 
+<img src="/assets/img/tikz_interseccion.png" width="40%">
+
 Ejemplo
 -------
 
@@ -105,7 +105,11 @@ sucesos:
 
 -   *A* ∪ *B* = {2, 4, 5, 6}  
 
+<img src="/assets/img/tikz_ej_union.png" width="40%">
+
 -   *A* ∩ *B* = {4, 6}  
+
+<img src="/assets/img/tikz_ej_interseccion.png" width="40%">
 
 -   *A* ∪ *C* = {1, 2, 3, 4, 5, 6} = *E*
 
