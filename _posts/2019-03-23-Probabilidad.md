@@ -182,18 +182,18 @@ es blanca. La situación cambia, porque que sea blanca implica que hay 3
 casos posibles y dos de las tres son impares. A esta nueva probabilidad
 se le llama condicionada y se denota así:
 
-$P(I\\|B)=\\dfrac{2}{3}$
+$P(I\|B)=\\dfrac{2}{3}$
 
 La probabilidad de que sea impar ha aumentado por el hecho de haber
 añadido la condición (o información) que es blanca.  
 Esta probabilidad la podemos transformar:
 
-$P(I\\|B)=\\dfrac{2}{3}=\\dfrac{\\dfrac{2}{8}}{\\dfrac{3}{8}}=\\dfrac{P(I\\cap B)}{P(B)}$
+$P(I\|B)=\\dfrac{2}{3}=\\dfrac{\\dfrac{2}{8}}{\\dfrac{3}{8}}=\\dfrac{P(I\\cap B)}{P(B)}$
 
 Generalización del fórmula de la probabilidad condicionada
 ----------------------------------------------------------
 
-$P(A\\|B)=\\dfrac{P(A\\cap B)}{P(B)}$
+$P(A\|B)=\\dfrac{P(A\\cap B)}{P(B)}$
 y despejando:
 *P*(*A* ∩ *B*) = *P*(*A*\|*B*) ⋅ *P*(*B*)
 
@@ -218,7 +218,7 @@ Independencia y dependencia de sucesos
 Se dice que dos sucesos son independientes cuando la probabilidad de
 cada uno no depende del resultado del otro.
 
-*A* *y* *B* *s**o**n* *i**n**d**e**p**e**n**d**i**e**n**t**e**s* ⇔ *P*(*B*\|*A*) = *P*(*B*)
+*A* *y* *B*  son independientes ⇔ *P*(*B*\|*A*) = *P*(*B*)
 
 ##### Ejemplos de sucesos independientes:
 
@@ -241,15 +241,11 @@ probabilidades de los diferentes resultados:
 
 ##### Ejemplos:
 
-\-
-
-Probabilidad de que las dos sean blancas:  
+- Probabilidad de que las dos sean blancas:  
 $P(B\_1\\cap B\_2)=P(B\_1)\\cdot P(B\_2\|B\_1)=\\frac{3}{5}\\cdot\\frac{2}{4}=\\frac{3}{10}$
-
-Probabilidad de que las dos sean negras:  
+- Probabilidad de que las dos sean negras:  
 $P(N\_1\\cap N\_2)=P(N\_1)\\cdot P(N\_2\|N\_1)=\\frac{2}{5}\\cdot\\frac{1}{4}=\\frac{1}{10}$
-
-Probabilidad de que sean del mismo color:  
+- Probabilidad de que sean del mismo color:  
 $P((B\_1\\cap B\_2)\\cup (N\_1\\cap N\_2))=\\frac{3}{10}+\\frac{1}{10}=\\frac{2}{5}$
 
 Cálculo de probabilidad compuesta para sucesos independientes
