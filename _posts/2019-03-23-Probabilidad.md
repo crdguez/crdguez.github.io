@@ -39,8 +39,8 @@ Espacio muestral y sucesos
 -   **Suceso contrario**: Si *A* es un suceso, $\\overline{A}$ es el
     suceso contrario. Es aquel que se cumple cuando no se cumple *A*
 
-Ejemplo:
---------
+### Ejemplos
+
 
 Lanzamos un dado y comprobamos la cara que sale.
 
@@ -61,14 +61,11 @@ Operaciones con sucesos y relaciones
 -   **Unión**: la unión de los sucesos *A* y *B* es aquel suceso que
     contiene a todos los elementos de *A* y a los de *B*. Se denota:
     *A* ∪ *B*
-
-<img src="/assets/img/tikz_union.png" width="40%">
-
+<img src="/assets/img/tikz_union.png" width="30%">
 -   **Intersección**: la intersección de los sucesos *A* y *B* es aquel
     suceso que contiene a todos los elementos que están tanto en *A*
     como en *B*. Se denota: *A* ∩ *B*
-
-<img src="/assets/img/tikz_interseccion.png" width="40%">
+<img src="/assets/img/tikz_interseccion.png" width="30%">
 
 Ejemplo
 -------
