@@ -45,19 +45,14 @@ Ejemplo:
 Lanzamos un dado y comprobamos la cara que sale.
 
 -   **Espacio muestral**: *E* = {1, 2, 3, 4, 5, 6}
-
 -   **Sucesos simples o elementales**: 1, 2, 3, 4, 5 ó 6
-
 -   **Sucesos compuestos**:
     *A* = {que salga par} = {2, 4, 6}
-
 -   **Suceso seguro**: *E* = {1, 2, 3, 4, 5, 6}
-
 -   **Suceso imposible**:
-    ⌀ = {*q**u**e* *s**a**l**g**a* *m**a**y**o**r* *q**u**e* 6}
-
+    ⌀ = {que salga  mayor  que  6}
 -   **Suceso contrario**: Si
-    *A* = {*q**u**e* *s**a**l**g**a* *p**a**r*} = {2, 4, 6},
+    *A* = {que salga par} = {2, 4, 6}},
     $\\overline{A}=\\lbrace que\\ salga\\ impar\\rbrace=\\lbrace1,3,5\\rbrace$
 
 Operaciones con sucesos y relaciones
