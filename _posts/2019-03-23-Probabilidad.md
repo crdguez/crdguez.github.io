@@ -24,9 +24,9 @@ diferente.
 Ejemplos
 --------
 
- - **Aleatorio**: Lanzar un dado y ver el resultado
+- **Aleatorio**: Lanzar un dado y ver el resultado
 
- - **Determinista**: Calcular el tiempo que tarda en caer un objeto al
+- **Determinista**: Calcular el tiempo que tarda en caer un objeto al
     suelo desde una distancia determinada
 
 Espacio muestral y sucesos
