@@ -24,9 +24,9 @@ diferente.
 Ejemplos
 --------
 
-- **Aleatorio**: Lanzar un dado y ver el resultado
+ * **Aleatorio**: Lanzar un dado y ver el resultado
 
-- **Determinista**: Calcular el tiempo que tarda en caer un objeto al
+ * **Determinista**: Calcular el tiempo que tarda en caer un objeto al
     suelo desde una distancia determinada
 
 Espacio muestral y sucesos
@@ -76,6 +76,8 @@ Operaciones con sucesos y relaciones
 -   **Unión**: la unión de los sucesos *A* y *B* es aquel suceso que
     contiene a todos los elementos de *A* y a los de *B*. Se denota:
     *A* ∪ *B*
+
+<img src="/assets/img/tikz_union.png" width="40%">
 
 -   **Intersección**: la intersección de los sucesos *A* y *B* es aquel
     suceso que contiene a todos los elementos que están tanto en *A*
