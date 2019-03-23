@@ -3,7 +3,7 @@ layout: post
 title: Apuntes de probabilidad
 tags: matemáticas probabilidad  4ESO
 mathjax: true
-eye_catch: 
+eye_catch:
 ---
 
 Experimento aleatorio
@@ -49,7 +49,7 @@ Lanzamos un dado y comprobamos la cara que sale.
 -   **Sucesos simples o elementales**: 1, 2, 3, 4, 5 ó 6
 
 -   **Sucesos compuestos**:
-    *A* = {*q*u*e**s*a**l**g**a* *p**a**r*} = {2, 4, 6}
+    *A* = {que salga par} = {2, 4, 6}
 
 -   **Suceso seguro**: *E* = {1, 2, 3, 4, 5, 6}
 
