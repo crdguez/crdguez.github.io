@@ -29,18 +29,13 @@ Espacio muestral y sucesos
 
 -   **Espacio muestral**: Conjunto de los posibles resultados del
     experimento. Se denota: *E*
-
 -   **Sucesos simples o elementales**: Cualquiera de los elementos del
     espacio muestral
-
 -   **Sucesos compuestos**: Sucesos formados por varios simples.
-
 -   **Suceso seguro**: Suceso compuesto por los elementos del Espacio
     muestral. Se cumple siempre
-
 -   **Suceso imposible**: Cualquier suceso que no se cumpla nunca. Se
     denota con el símbolo: ⌀
-
 -   **Suceso contrario**: Si *A* es un suceso, $\\overline{A}$ es el
     suceso contrario. Es aquel que se cumple cuando no se cumple *A*
 
