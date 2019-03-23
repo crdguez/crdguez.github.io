@@ -113,8 +113,8 @@ Cuando todos los sucesos elementales de un **espacio muestral finito**
 están en las mismas condiciones de suceder se dice que son
 **equiprobables**, y al experimento se le llama **regular**.
 
-Ejemplos de experimentos regulares
-----------------------------------
+### Ejemplos de experimentos regulares
+
 
 Lanzamiento de dados, monedas, extracción de cartas, ...
 
@@ -151,11 +151,8 @@ La probabilidad de un experimento regular cumple las siguientes
 propiedades:
 
 -   0 ≤ *P*(*A*) ≤ 1
-
 -   *P*(*E*) = 1 y *P*(⌀) = 0
-
 -   $P(A) + P(\\overline A) = 1$
-
 -   *P*(*A* ∪ *B*) = *P*(*A*) + *P*(*B*) − *P*(*A* ∩ *B*). Si *A* y *B*
     son icompatibles: *P*(*A* ∪ *B*) = *P*(*A*) + *P*(*B*)
 
@@ -170,8 +167,7 @@ resultados de un experimento, el hecho de que ocurra un suceso, puede
 cambiar la probabilidad de los demás. A esta nueva probabilidad se le
 llama **condicionada**
 
-Ejemplo
--------
+### Ejemplo
 
 Supongamos que tenemos una urna con 8 bolas numeradas pero de colores
 blancos y negros de la cual se extrae una. Supongamos, también, que las
@@ -203,7 +199,7 @@ Experimentos compuestos
 Un **experimento aleatorio compuesto** es el que está formado por varios
 experimentos simples realizados de forma consecutiva.
 
-##### Ejemplo:
+### Ejemplo:
 
 Lanzar tre monedas, extraer cuatro cartas de una baraja, ...
 
@@ -233,7 +229,7 @@ sin reemplazamiento, ...
 Cálculo de probabilidad compuesta para sucesos dependientes
 -----------------------------------------------------------
 
-#### Ejemplo:
+### Ejemplo:
 
 En una urna hay tres bolas blancas y dos negras. Se extraen dos bolas
 **sin** reemplazamiento. Podemos construir el siguiente árbol con las
