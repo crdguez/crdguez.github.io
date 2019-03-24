@@ -176,13 +176,13 @@ tres primeras son blancas y el resto negras, luego
 A priori, la
 $P(\\lbrace Sea\\ impar\\rbrace )=\\frac{4}{8}=\\frac{1}{2}$ por la
 regla de Laplace. Tiene la misma probabilidad salir par que impar.
-  
+
 Vamos a suponer ahora que durante la extracción se percibe que la bola
 es blanca. La situación cambia, porque que sea blanca implica que hay 3
 casos posibles y dos de las tres son impares. A esta nueva probabilidad
 se le llama condicionada y se denota así:
 
-$P(I\|B)=\\dfrac{2}{3}$
+$P(I\|B)=\\dfrac{2}{3}​$
 
 La probabilidad de que sea impar ha aumentado por el hecho de haber
 añadido la condición (o información) que es blanca.  
@@ -195,6 +195,7 @@ Generalización del fórmula de la probabilidad condicionada
 
 $P(A\|B)=\\dfrac{P(A\\cap B)}{P(B)}$
 y despejando:
+
 *P*(*A* ∩ *B*) = *P*(*A*\|*B*) ⋅ *P*(*B*)
 
 Experimentos compuestos
@@ -205,11 +206,12 @@ experimentos simples realizados de forma consecutiva.
 
 ### Ejemplo:
 
-Lanzar tre monedas, extraer cuatro cartas de una baraja, ...
+Lanzar tres monedas, extraer cuatro cartas de una baraja, ...
 
 La probabilidad de un suceso compuesto se podrá calcular a partir de las
 probabilidades obtenidas de los experimentos simples usando la
 probabilidad condicional:
+
 *P*(*A* ∩ *B*) = *P*(*A*) ⋅ *P*(*B*\|*A*)
 
 Independencia y dependencia de sucesos
@@ -239,6 +241,12 @@ En una urna hay tres bolas blancas y dos negras. Se extraen dos bolas
 **sin** reemplazamiento. Podemos construir el siguiente árbol con las
 probabilidades de los diferentes resultados:
 
+
+
+<img src="/assets/img/tikz_arbol_1.png" width="30%">
+
+
+
 ##### Ejemplos:
 
 - Probabilidad de que las dos sean blancas:  
@@ -256,18 +264,22 @@ Cálculo de probabilidad compuesta para sucesos independientes
 En una urna hay tres bolas blancas y dos negras. Se extraen dos bolas
 **con** reemplazamiento. Ahora el árbol quedará:
 
+
+
+<img src="/assets/img/tikz_arbol_2.png" width="30%">
+
+
+
 ##### Ejemplos:
 
-\-
+- Probabilidad de que las dos sean blancas:  
+  $P(B\_1\\cap B\_2)=P(B\_1)\\cdot P(B\_2\|B\_1)=\\frac{3}{5}\\cdot\\frac{3}{5}=\\frac{9}{25}$
 
-Probabilidad de que las dos sean blancas:  
-$P(B\_1\\cap B\_2)=P(B\_1)\\cdot P(B\_2\|B\_1)=\\frac{3}{5}\\cdot\\frac{3}{5}=\\frac{9}{25}$
+- Probabilidad de que las dos sean negras:  
+  $P(N\_1\\cap N\_2)=P(N\_1)\\cdot P(N\_2\|N\_1)=\\frac{2}{5}\\cdot\\frac{2}{5}=\\frac{4}{25}$
 
-Probabilidad de que las dos sean negras:  
-$P(N\_1\\cap N\_2)=P(N\_1)\\cdot P(N\_2\|N\_1)=\\frac{2}{5}\\cdot\\frac{2}{5}=\\frac{4}{25}$
-
-Probabilidad de que sean del mismo color:  
-$P((B\_1\\cap B\_2)\\cup (N\_1\\cap N\_2))=\\frac{9}{25}+\\frac{4}{25}=\\frac{13}{25}$
+- Probabilidad de que sean del mismo color:  
+  $P((B\_1\\cap B\_2)\\cup (N\_1\\cap N\_2))=\\frac{9}{25}+\\frac{4}{25}=\\frac{13}{25}$
 
 Teorema de la probabilidad total
 ================================
@@ -277,6 +289,10 @@ Teorema de la probabilidad total
 En un instituto de ESO hay 4 cursos: 1º, 2º, 3º y 4º. Se quiere estudiar
 la probabilidad de que un alumno del instituto esté con la gripe
 (Llamamos *G* al suceso tener gripe).
+
+<img src="/assets/img/tikz_probabilidad_total.png" width="30%">
+
+
 
 Como un alumno pertenece a un solo curso los sucesos
 *E**S**O*<sub>1</sub> , *E**S**O*<sub>2</sub>, *E**S**O*<sub>3</sub>, y
@@ -309,8 +325,14 @@ y dos negras. Si se extraen dos bolas, por ejemplo **sin**
 reemplazamiento, podemos calcular la probabilidad de que la segunda bola
 haya sido blanca:
 
+
+
+<img src="/assets/img/tikz_arbol_3.png" width="30%">
+
+
+
 $P(B\_2)=P(B\_1)\\cdot P(B\_2\|B\_1) + P(N\_1)\\cdot P(B\_2\|N\_1)
-= \\frac{3}{5}\\cdot\\frac{2}{4} + \\frac{2}{5}\\cdot\\frac{3}{4}$
+= \\frac{3}{5}\\cdot\\frac{2}{4} + \\frac{2}{5}\\cdot\\frac{3}{4}​$
 
 Teorema de Bayes
 ================
@@ -324,9 +346,9 @@ $P(A\_i\|B)=\\dfrac{P(A\_i \\cap B)}{\\sum\_{i=1}^n P(A\_i)\\cdot  P(B\|A\_i)}$
 #### Demostración:
 
 Por la probabilidad condicionada:
-$P(A\_i\|B)=\\dfrac{P(A\_i \\cap B)}{P(B)}$
+$P(A\_i\|B)=\\dfrac{P(A\_i \\cap B)}{P(B)}​$
 Pero por la probabilidad total:
-$P(B)=\\sum\_{i=1}^n P(A\_i)\\cdot  P(B\|A\_i)$
+$P(B)=\\sum\_{i=1}^n P(A\_i)\\cdot  P(B\|A\_i)​$
 Sustituyendo esta en la primera obtenemos el resultado
 
 Ejemplo:
