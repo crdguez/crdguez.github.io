@@ -292,11 +292,17 @@ la probabilidad de que un alumno del instituto esté con la gripe
 Como un alumno pertenece a un solo curso los sucesos
 *E**S**O*<sub>1</sub> , *E**S**O*<sub>2</sub>, *E**S**O*<sub>3</sub>, y
 *E**S**O*<sub>4</sub> (abreviados *E*<sub>1</sub>, etc.) son
-incompatibles. Además:
+incompatibles. 
+Además:
+
 $G=(G \\cap E\_1)\\cup(G \\cap E\_2)\\cup(G \\cap E\_3)\\cup(G \\cap E\_4)=\\bigcup\_{i=1}^4(G \\cap E\_i)$
+
 Por tanto,
+
 $P(G)=P(G \\cap E\_1)+P(G \\cap E\_2)+P(G \\cap E\_3)+P(G \\cap E\_4)=\\sum\_{i=1}^4 P(G \\cap E\_i)$
+
 Aplicando la probabilidad condicionada:
+
 $\\begin{aligned}
 P(G)=P(E\_1)\\cdot P(G\|E\_1)+P(E\_2)\\cdot P(G\|E\_2)+\\\\+P(E\_3)\\cdot P(G\|E\_3)+P(E\_1)\\cdot P(G\|E\_4)= \\\\ =\\sum\_{i=1}^4 P(E\_i)\\cdot  P(G\|E\_i)\\end{aligned}$
 
@@ -341,9 +347,16 @@ $P(A\_i\|B)=\\dfrac{P(A\_i \\cap B)}{\\sum\_{i=1}^n P(A\_i)\\cdot  P(B\|A\_i)}$
 #### Demostración:
 
 Por la probabilidad condicionada:
+
 $P(A\_i\|B)=\\dfrac{P(A\_i \\cap B)}{P(B)}​$
+
+
 Pero por la probabilidad total:
+
+
 $P(B)=\\sum\_{i=1}^n P(A\_i)\\cdot  P(B\|A\_i)​$
+
+
 Sustituyendo esta en la primera obtenemos el resultado
 
 Ejemplo:
@@ -351,4 +364,6 @@ Ejemplo:
 
 En el ejemplo del apartado anterior calcular la probabilidad de que la
 primera bola haya sido blanca si se sabe que la segunda ha sido blanca:
+
+
 $P(B\_1\|B\_2)=\\dfrac{P(B\_1 \\cap B\_2)}{P(B\_1)\\cdot  P(B\_2\|B\_1)+P(N\_1)\\cdot  P(N\_2\|B\_1)}=\\dfrac{\\dfrac{3}{5}\\cdot\\dfrac{2}{4}}{\\dfrac{3}{5}\\cdot\\dfrac{2}{4} + \\dfrac{2}{5}\\cdot\\dfrac{3}{4}}$
