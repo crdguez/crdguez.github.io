@@ -266,7 +266,7 @@ En una urna hay tres bolas blancas y dos negras. Se extraen dos bolas
 
 
 
-<img src="/assets/img/tikz_arbol_2.png" width="30%">
+<img src="/assets/img/tikz_arbol_2.png" width="40%">
 
 
 
@@ -288,7 +288,7 @@ En un instituto de ESO hay 4 cursos: 1º, 2º, 3º y 4º. Se quiere estudiar
 la probabilidad de que un alumno del instituto esté con la gripe
 (Llamamos *G* al suceso tener gripe).
 
-<img src="/assets/img/tikz_probabilidad_total.png" width="30%">
+<img src="/assets/img/tikz_probabilidad_total.png" width="40%">
 
 
 
@@ -325,7 +325,7 @@ haya sido blanca:
 
 
 
-<img src="/assets/img/tikz_arbol_3.png" width="30%">
+<img src="/assets/img/tikz_arbol_3.png" width="40%">
 
 
 
