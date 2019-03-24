@@ -285,7 +285,7 @@ En un instituto de ESO hay 4 cursos: 1º, 2º, 3º y 4º. Se quiere estudiar
 la probabilidad de que un alumno del instituto esté con la gripe
 (Llamamos *G* al suceso tener gripe).
 
-<img src="/assets/img/tikz_probabilidad_total.png" width="40%">
+<img src="/assets/img/tikz_probabilidad_total.png" width="50%">
 
 
 
