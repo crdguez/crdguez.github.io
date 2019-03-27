@@ -363,4 +363,4 @@ En el ejemplo del apartado anterior calcular la probabilidad de que la
 primera bola haya sido blanca si se sabe que la segunda ha sido blanca:
 
 
-$P(B\_1\|B\_2)=\\dfrac{P(B\_1 \\cap B\_2)}{P(B\_1)\\cdot  P(B\_2\|B\_1)+P(N\_1)\\cdot  P(N\_2\|B\_1)}=\\dfrac{\\dfrac{3}{5}\\cdot\\dfrac{2}{4}}{\\dfrac{3}{5}\\cdot\\dfrac{2}{4} + \\dfrac{2}{5}\\cdot\\dfrac{3}{4}}$
+$P(B\_1\|B\_2)=\\dfrac{P(B\_1 \\cap B\_2)}{P(B\_1)\\cdot  P(B\_2\|B\_1)+P(N\_1)\\cdot  P(B\_2\|N\_1)}=\\dfrac{\\dfrac{3}{5}\\cdot\\dfrac{2}{4}}{\\dfrac{3}{5}\\cdot\\dfrac{2}{4} + \\dfrac{2}{5}\\cdot\\dfrac{3}{4}}$
