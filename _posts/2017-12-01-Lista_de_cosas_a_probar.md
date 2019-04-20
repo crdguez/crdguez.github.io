@@ -31,6 +31,6 @@ Esa pila de cosas a probar pero que nunca hay tiempo:
       * docker exec -i -t container  /bin/bash (abre una terminal en el contenedor)
       * docker run -v $(pwd):/app -p 8050:8050 --name mi_name image (monta la carpeta actual en el host en la que digas del contenedor)
   * [filtros pandoc para pasar tikz a imágenes](https://tex.stackexchange.com/questions/445051/pandoc-exporting-tikz-figures-and-other-environments-from-latex-to-other-format)
-  * [Curso de Python](http://www.educoteca.com/python.html)
+  * [Curso de Python](http://www.educoteca.com/curso_python.html)
 
 Habrá que probarlos. 
