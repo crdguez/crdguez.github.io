@@ -6,7 +6,7 @@ mathjax: true
 eye_catch:
 ---
 
-[PythonTeX](https://github.com/gpoore/pythontex) es un paquete de (\( \LaTeX \))que permite añadir código Python directamente en (\( \LaTeX \)) para ser ejecutado
+[PythonTeX](https://github.com/gpoore/pythontex) es un paquete de $ \LaTeX $ que permite añadir código Python directamente en $\LaTeX $ para ser ejecutado
 
 ## Instalación
 
