@@ -25,6 +25,8 @@ pdflatex -shell-escape prueba.tex|pythontex prueba.tex|pdflatex -shell-escape pr
 
 ```
 
+Aquí una [prueba](/assets/prueba2.pdf)
+
 
 
 
