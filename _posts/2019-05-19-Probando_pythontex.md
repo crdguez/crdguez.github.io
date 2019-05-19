@@ -6,7 +6,7 @@ mathjax: true
 eye_catch:
 ---
 
-[PythonTeX](https://github.com/gpoore/pythontex) es un paquete de \LaTeX que permite añadir código Python directamente en \LaTeX para ser ejecutado
+[PythonTeX](https://github.com/gpoore/pythontex) es un paquete de (\( \LaTeX \))que permite añadir código Python directamente en (\( \LaTeX \)) para ser ejecutado
 
 ## Instalación
 
@@ -16,7 +16,7 @@ eye_catch:
 
 ## Ejecución
 
-Aunque he intentado configurar mi procesador favorito, Texmaker, siguiendo este [enlace](https://tex.stackexchange.com/questions/431523/texmaker-miktex-using-pythontex), no lo he conseguido. Parece que hay problemas con *minted*
+Aunque he intentado configurar Texmaker siguiendo este [enlace](https://tex.stackexchange.com/questions/431523/texmaker-miktex-using-pythontex), no lo he conseguido. Parece que hay problemas con *minted*
 
 Para poder compilar documentos con pythontex he tenido que tirar de consola. Si nuestro fichero se llama *prueba.tex*:
 
