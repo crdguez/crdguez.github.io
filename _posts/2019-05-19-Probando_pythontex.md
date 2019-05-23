@@ -1,32 +1,28 @@
 ---
 layout: post
-title: Probando pythontex
+title: Descargando recursos de matemáticas del IES Valdemora
 tags: Python Tex Latex
 mathjax: true
 eye_catch:
 ---
 
-[PythonTeX](https://github.com/gpoore/pythontex) es un paquete de $ \LaTeX $ que permite añadir código Python directamente en $\LaTeX $ para ser ejecutado
+Antes de nada, agradecer al [departamento de  matemáticas del IES Juan García Valdemora](http://jgvaldemora.org/blog/matematicas/) el fantástico material que dejan disponible en la red
 
-## Instalación
+## Ubicación de los contenidos
 
-```
- sudo apt-get-install texlive-extra-utils
-```
+El caso es que ellos cuelgan los contenidos en un blog, y en concreto, la ruta donde se guardan es:
 
-## Ejecución
-
-Aunque he intentado configurar Texmaker siguiendo este [enlace](https://tex.stackexchange.com/questions/431523/texmaker-miktex-using-pythontex), no lo he conseguido. Parece que hay problemas con *minted*
-
-Para poder compilar documentos con pythontex he tenido que tirar de consola. Si nuestro fichero se llama *prueba.tex*:
-
-```
-pdflatex -shell-escape prueba.tex|pythontex prueba.tex|pdflatex -shell-escape prueba.tex
-
+```bash
+/jgvaldemora.org/blog/matematicas/wp-content/uploads
 ```
 
-Aquí una [prueba](/assets/prueba_pythontex.pdf)
+## Descarga
 
+Podemos usar el comando *wget*
 
+```
+wget http://jgvaldemora.org/blog/matematicas/
+```
 
+Y luego ir a la ruta anterior
 
