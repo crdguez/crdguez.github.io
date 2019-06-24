@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Probando paquetes Latex
+title: Probando paquetes $\LaTeX$
 tags: Tex Latex 
 mathjax: true
 eye_catch:
