@@ -8,6 +8,8 @@ share: false
 
 # Curso escolar 2018-2019
 
+
+
 ## 1 Bachillerato CIT
 
 * [Planificación del curso](https://crdguez.github.io/2018/09/14/Programacion_1cit/)
