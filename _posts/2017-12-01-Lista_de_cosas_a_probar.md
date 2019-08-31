@@ -33,5 +33,6 @@ Esa pila de cosas a probar pero que nunca hay tiempo:
   * [filtros pandoc para pasar tikz a imágenes](https://tex.stackexchange.com/questions/445051/pandoc-exporting-tikz-figures-and-other-environments-from-latex-to-other-format)
   * [Curso de Python](http://www.educoteca.com/curso_python.html)
   * [web de estadística molona](https://seeing-theory.brown.edu/#3rdPage)
+  * [microscopio](https://www.instructables.com/id/Picroscope-a-Low-Cost-Interactive-Microscope/)
 
 Habrá que probarlos. 
