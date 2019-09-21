@@ -179,6 +179,4 @@ Y su solución:
 
 
 
-### Uso "pitónico"
-
-...
+Y  eso es todo. Como veis, en realidad, una vez instalado el programa solo hay que generar un fichero *yaml* con los datos y el tipo de puzzle.
